@@ -1,0 +1,9 @@
+pane	cars	0	:mvn	0	:-	0	:/Users/melliott/cars/carsBackend	0	zsh	:
+pane	cars	0	:mvn	0	:-	1	:/Users/melliott/cars/carsBackend/CarsSearch/CarsSearch-webapp	0	java	:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -classpath /usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar -Dclassworlds.conf=/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf -Dmaven.home=/usr/local/Cellar/maven/3.3.3/libexec -Dmaven.multiModuleProjectDirectory=/Users/melliott/cars/carsBackend/CarsSearch/CarsSearch-webapp org.codehaus.plexus.classworlds.launcher.Launcher jetty:run
+pane	cars	0	:mvn	0	:-	2	:/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp/assets/src	0	zsh	:
+pane	cars	0	:mvn	0	:-	3	:/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp	1	java	:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -classpath /usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar -Dclassworlds.conf=/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf -Dmaven.home=/usr/local/Cellar/maven/3.3.3/libexec -Dmaven.multiModuleProjectDirectory=/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp org.codehaus.plexus.classworlds.launcher.Launcher jetty:run
+pane	cars	2	:..pbox/dotfiles	1	:*	0	:/Users/melliott/1on1s	0	zsh	:
+pane	cars	2	:..pbox/dotfiles	1	:*	1	:/Users/melliott/Dropbox/dotfiles	1	zsh	:
+window	cars	0	0	:-	ea0c,143x39,0,0{71x39,0,0[71x19,0,0,0,71x19,0,20,3],71x39,72,0[71x19,72,0,1,71x19,72,20,2]}
+window	cars	2	1	:*	97fd,143x39,0,0{71x39,0,0,6,71x39,72,0,7}
+state	cars	
