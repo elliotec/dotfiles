@@ -37,6 +37,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'Shutnik/jshint2.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'scrooloose/syntastic'
@@ -240,7 +241,7 @@ autocmd bufread,bufnewfile *.md,*.markdown setlocal spell
 autocmd bufread,bufnewfile *.md,*.markdown setlocal wrap
 "autocmd bufread,bufnewfile *.md,*.markdown setlocal foldmethod=indent
 autocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()
-autocmd bufread,bufnewfile *.md,*.markdown call pencil#init()
+autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})
 let g:vim_markdown_frontmatter = 1
 augroup end
 "let g:vim_markdown_folding_disabled=1

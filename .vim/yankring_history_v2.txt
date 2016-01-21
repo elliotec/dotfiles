@@ -1,100 +1,100 @@
-Plugin 'Shutnik/jshint2.vim',V
-Plugin 'dhruvasagar/vim-table-mode',V
-Plugin 'vim-scripts/html-autoclosetag',V
-Plugin 'flomotlik/vim-livereload',V
-this,v
-for ,v
-somewhere ,v
-find ,v
- ,v
+https://fedguild.slack.com/archives/random/p1453397378000032,v
 ,V
-let g:vim_markdown_frontmatter = 1,V
-i,v
-n,v
-http://paulgraham.com/vb.html,v
-G,v
-.,v
-1,v
-#,v
-*,v
----,V
-Often times, hardcore engineering principles and deep computer science theories get in the way of shipping a product. Keep in mind I'm American. I was raised in a society where individualism is promoted, and societal structure is largely every man for himself + the "golden rule". That's the American golden rule (he who has the gold, makes the rule). I'm not going to agree or disagree with the political or socioeconomic status quo here, but offer pragmatic solutions to adapt to our situations. The methods WILL work in societies where capitalism and individualism are mantras, including Europe and even China, but obviously strict social factors (like Japanese) and customs are out of the scope of this book. I don't have the patience to analyze algorithms and focus on CS heavy problems. I mean maybe I do, but I certainly don't have the patience. I want to build, ship, and move on. If a shortcut exists to solve something, why wouldn't I use it? Go out of your way to find and converse with  the organizers and leaders of events you attend. Most of what web development really is, is gathering, organizing, crunching, and presenting data. Data might sound like a scary word but all it means iThink of the smartest person you know. Who's the first person that pops into your head? ( "if you said your wife, that's the right answer" says my wife),v
-I have a long history of laziness. I hated school since the day the teachers ripped me out of my moms arms. One of the first times I conceptualized the fact that rules and beaten paths were not my cup of tea was when a cute girl in second or third grade gave me a letter that was folded all specially so that you have to do some weird finger combo to unlock the secret inside. I saw that if I just tore through one little corner of the paper, it would open effortlessly. So I did it, and she was a bit annoyed that I didn't open it properly and told me. I distinctly remember  saying "why would I take the time to do it the hard way when I can figure out an easier way?" Which was a huge epiphany for me and kind of a personality trait I've held on to throughout my life. Whatever the letter or whoever the girl was have left my memory forever but that was a profound realization that hasn't. Life isn't fair pebbles office story. ,v
------------------,V
-Most of life is showing up You're gonna have awkward moments, and you're gonna have to move past them. You don't get jobs by merit, but by connection referrals, similarities, and good vibes with the interviewer. This world isn't built on meritocracy. It's built on cronyism and money. We can either moan and weep about it fighting from the outside and have nothing to show for it, or adapt to our circumstances, getting our cut while promoting positive change from within. Make connections, and be yourself. Adapt to the situation at hand, but as a general rule just say what you feel like saying, and what seems right. The people that make it through your personal filter will end up sticking  around and will often ending up provide most opportunities. Who knows, you may find you actually enjoy their company too. If you're debilitatingly shy, start by networking online. If it really kills you, start with anonymity. I don't suggest it unless you really really hate people. My very best and longest relationships have a long history of online communication. Including my best buddies and wife. If you get down voted on a Reddit post, get over it. Seriously. Nobody ever got anywhere without having unpopular opinions. If you don't, you're like everyone else. If you're like everyone else, you're in a bad spot. You want to be your own person. Have a couple party tricks up your sleeve. I bet you already do. Use them at your next event where appropriate and after a few drinks. I have a coin flip toss thing and juggling, and a hat spinny trick. That's it. It's usually enough to impress someone at some point. ,v
-0,v
-9,v
-8,v
-2,v
-3,v
-6,v
-5,v
-7,v
-4,v
-      dd,V
-some ,v
-When ,v
-you  know the feeling.,v
+PetsPortal/,V
+erR,V
+name,v
+ z,V
+////,V
+function (){,V
+},V
+console.log();,V
+ %>,v
+ %>,V
 ,v
-and ,v
-type ,v
-MBTI ,v
-several ,v
-thyself,v
-Know ,v
-tautological,v
-fixed,v
-  top:0;,V
-  min-width:100%;,V
-  min-height:1000px;,V
-height,v
-  min-height:100%;,V
-relative,v
-  bottom: 60px;,V
-    $(".video-wrapper").css("", "0").css("position", "fixed");,V
-");,v
-hidden,v
+  augroup end,V
+    autocmd!,V
+  augroup js,V
+  augroup rb,V
+http://cars.overstock.com/usedcars,v
+  The essence of it is simple, but the implementations of it are marvelous. ,V
+pretty ,v
+  The essence of it is pretty simple. d,V
+  something.,V
+  swapping the "programmable device" part for "programmed application" or,V
+  We can apply this definition to what we call web apps,,V
+to ,v
+apply ,v
+use ,v
+also ,v
+could ,v
+, ,v
+essence,v
+In ,v
+Then, everyone gets charged the same, and you can't overcharge foreigners without also screwing your own people. Plus, foreigners get cheaper postage as they drop it closer to the final destination.,V
 ",v
-", ,v
-overflow,v
-(",v
-css,v
-position,v
-top,v
-absolute,v
-inline,v
-block,v
-    /*position: fixed;*/,V
-;,v
-  top: 50%;,V
-  left: 50%;,V
-100,v
-56,v
-  height: 0;,V
-    bottom: 60px;,V
-    top,V
-o,v
-e,v
-null ,v
-</div>,V
-<div class="welcome-wrapper">,V
-      <iframe src="http://www.youtube.com/embed/8ItNE_DX6Cc?showinfo=0&iv_load_policy=3&controls=0" frameborder="0" allowfullscreen></iframe>,V
-  <%= video_tag "juiceVideo.mp4", controls: false, autoplay: true, loop: true, class: "welcome-vid" %>,V
-iframe ,v
-welcome,v
-        border: 1px solid $dark-gray;,V
-p,v
-t,v
--,v
-        border-right: 1px solid $dark-gray;,V
-border-left: 1px solid $dark-gray;,V
-border-left: 1px solid $dark-gray;        border-right: 1px solid $dark-gray;        border-top: 1px solid $dark-gray;,v
-right,v
-left,v
-        border-left: 1px solid $dark-gray;,V
-m,v
-Sometimes I write stuff at http://blog.thiago.me.,v
-=,v
-l,v
+life ,v
+Most ,v
+https://jira.overstock.com/browse/ORATS-169,v
+({'wrap': 'hard'}),v
+.,v
+d,v
+n,v
 a,v
+ ,v
+,,v
+clicked,v
+    console.log('clicked!');,V
+https://fedguild.slack.com/archives/tourneys/p1453313609000051,v
+set wildmenu,v
+http://rubyonrails.org/doctrine,v
+ ,V
+ <a href="javascript:void(0)" class="grid-item">    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">    <h1>A Grid Item</h1>    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>  </a>  <a href="javascript:void(0)" class="grid-item">    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">    <h1>Item</h1>    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>  </a>  <a href="javascript:void(0)" class="grid-item">    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">    <h1>Last Grid Item</h1>    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>  </a>,v
+  overflow: hidden;,V
+  max-height:80%;,V
+none,v
+    top:50d,V
+;,v
+-,v
+      top: -50%;,V
+relative,v
+    position:relative;,V
+    left:50%;,V
+    transform: translate(-50%, -200%);,V
+    top:50%;,V
+2,v
+5,v
+    top:5%;,V
+8,v
+    position: ;,V
+absolute,v
+  .form-wrap {    /*position: absolute;*/,V
+    top:45%;,V
+  //////////////////////////////////////////////////////////////////////////////////,v
+  //////////////////////////////////////////////////////////////////////////////////,V
+  ///////////////////////////////////////////////////////////////////////////////////,V
+// Uncomment this for a sticky footer.//// .wrapper-for-content-outside-of-footer {//   min-height: 100%;//   height: auto !important;//   height: 100%;//   margin: 0 auto -4em;// }// html, body {//  height: 100%;// }// .wrapper-for-content-outside-of-footer:after {//   content: "";//   display: block;// }// .footer-2, .wrapper-for-content-outside-of-footer:after {//   height: 17em;//   @include media($large-screen) {//     height: 4em;//   }// },v
+),v
+darken,v
+898999,v
+98,v
+888,v
+333,v
+ddd ,v
+477DCA ,v
+white,v
+%,v
+0,v
+3,v
+r,v
+o,v
+l,v
 c,v
+accent,v
+base,v
+($,v
+(,v
+desaturate,v
+$footer-background: ,v
+  $footer-background: desaturate(darken($base-accent-color, 20%), 30%);,V
+fff ,v
+// U.footer-2 {,V

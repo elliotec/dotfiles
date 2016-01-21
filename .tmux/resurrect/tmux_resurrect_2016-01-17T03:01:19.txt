@@ -1,0 +1,8 @@
+pane	bloom	0	:vim	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
+pane	bloom	0	:vim	1	:*	1	:/home/elliotec/Dropbox/bloomjuice	0	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby /home/elliotec/.rbenv/versions/2.3.0/bin/guard --debug
+pane	bloom	0	:vim	1	:*	2	:/home/elliotec/Dropbox/bloomjuice/app/views/layouts	1	vim	:vim
+pane	bloom	1	:zsh	0	:-	0	:/home/elliotec/Dropbox/elliotec.github.io	1	zsh	:
+pane	bloom	1	:zsh	0	:-	1	:/home/elliotec/Dropbox/elliotec.github.io	0	zsh	:
+window	bloom	0	1	:*	5aa6,239x61,0,0{64x61,0,0[64x30,0,0,0,64x30,0,31,2],174x61,65,0,1}
+window	bloom	1	0	:-	83c9,239x61,0,0{119x61,0,0,3,119x61,120,0,4}
+state	bloom	
