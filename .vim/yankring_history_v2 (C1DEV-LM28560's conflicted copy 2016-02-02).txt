@@ -1,0 +1,100 @@
+set statusline+=%#warningmsg#set statusline+=%{SyntasticStatuslineFlag()}set statusline+=%*let g:syntastic_always_populate_loc_list = 1let g:syntastic_auto_loc_list = 1let g:syntastic_check_on_open = 1let g:syntastic_check_on_wq = 0,v
+,V
+we ,v
+http://blogs.baruch.cuny.edu/authenticityandastonishment2/files/2013/04/Mihaly-Csikszentmihalyi-Flow1.pdf,v
+Raiderstickets@overstock.com,v
+Plugin 'junegunn/goyo.vim'Plugin 'amix/vim-zenroom2'Plugin 'mhinz/vim-startify'Plugin 'junegunn/limelight.vim',v
+Plugin 'godlygeek/tabular'Plugin 'plasticboy/vim-markdown'Plugin 'suan/vim-instant-markdown',v
+name,v
+func,v
+export DESKTOP_DB_HOSTNAME=10.8.13.49export DESKTOP_DB_DATABASE_NAME_SHP=niclaunchctl setenv DESKTOP_DB_HOSTNAME 10.8.13.49,v
+rpm,v
+   <module>CarsPortal-rpm</module>,V
+https://www.washingtonpost.com/national/health-science/a-one-time-party-drug-is-helping-people-with-deep-depression/2016/02/01/d3e73862-b490-11e5-a76a-0b5145e8679a_story.html,v
+/blank,v
+k,v
+n,v
+a,v
+l,v
+b,v
+:,v
+ ,v
+>,v
+=,v
+o,v
+i,v
+t,v
+c,v
+,,v
+e,v
+s,v
+r,v
+/,v
+images,v
+assets,v
+casein,v
+Casein,v
+      <%= image_tag juice.photo.url(:medium) %>,V
+  <%= @juice.photo(url: )%>,V
+ingredients,v
+Ingredients,v
+<p>  <strong>Ingredients:</strong>  <%= @juice.ingredients%></p>,v
+price price (,V
+price ,v
+Price,v
+<p>  <strong>Price:</strong>  <%= @juice.price %></p>,v
+<%= link_to 'Back', juices_path %>,V
+<%= link_to 'Edit', edit_juice_path(@juice) %> |,V
+<p id="notice"><%= notice %></p>,V
+<p>  <strong>Name:</strong>  <%= @product.name %></p><p>  <strong>Description:</strong>  <%= @product.description %></p><p>  <strong>Price:</strong>  <%= @product.price %></p>,v
+products_path ,v
+end,v
+end,V
+class Product < ActiveRecord::Base,V
+class Product < ActiveRecord::Base  has_attached_file :photo, styles: {medium: "400x400>"}  validates_attachment_content_type :photo, content_type: /\Aimage\/.*\Z/end,v
+<section class="products-wrapper">,V
+<p id="notice"><%= notice %></p><h1>Listing Juices</h1><table>  <thead>    <tr>      <th colspan="3"></th>    </tr>  </thead>  <tbody>    <% @juices.each do |juice| %>      <tr>        <td><%= link_to 'Show', juice %></td>        <td><%= link_to 'Edit', edit_juice_path(juice) %></td>        <td><%= link_to 'Destroy', juice, method: :delete, data: { confirm: 'Are you sure?' } %></td>      </tr>    <% end %>  </tbody></table><br><%= link_to 'New Juice', new_juice_path %>,v
+p,v
+<section class="products-wrapper"><h2>Juices</h2><%= render 'refills/grid_items_lines' %></section>,v
+short_description,v
+      t.string :short_description,V
+t.string :name      t.string :description      t.decimal :price,v
+		<%= casein_text_field f, f.object, :photo %>,V
+		<%= casein_file_field f, f.object, f.object.class.name.tableize.singularize, :photo %>,V
+),v
+import {List, Map} from 'immutable';import {expect} from 'chai';import {setEntries} from '../src/core';describe('application logic', () => {  describe('setEntries', () => {    it('adds the entries to the state', () => {      const state = Map();      const entries = List.of('Trainspotting', '28 Days Later');      const nextState = setEntries(state, entries);      expect(nextState).to.equal(Map({        entries: List.of('Trainspotting', '28 Days Later')      }));    });  });});,v
+http://vim.wikia.com/wiki/Disable_automatic_comment_insertion,v
+',v
+A,v
+          ,V
+#2ecc71,v
+https://github.com/elliotec/rapid.vim,v
+Plugin 'eapache/rainbow_parentheses.vim',V
+double,v
+recursive,v
+1,v
+x,v
+&,v
+",v
+\,v
+d,v
+f,v
+E,v
+h,v
+https://twitter.com/horse_js/status/693942322145267712,v
+0,v
+5,v
+3,v
+2,v
+      /*}*/,V
+      /*  max-width: 70%;*/,V
+      /*@include media($medium-screen) {*/,V
+  .grid-item-big {    @include media($large-screen) {      @include grid-item-columns($grid-item-big-columns);    }    p {      @include media($medium-screen) {        max-width: 60%;      }    }  },v
+      text-align: center;,V
+    text-align:center;,V
+2em,v
+  },V
+    margin:0 auto;,V
+    width:100%;,V
+  .inner-grid{,V
+  </div>,V

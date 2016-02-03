@@ -95,3 +95,7 @@ alias ohmyzsh="vim ~/.oh-my-zsh"
 alias showAll='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideAll='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 alias clinst='mvn clean install -U -DskipTests'
+
+export DESKTOP_DB_HOSTNAME=10.8.13.49
+export DESKTOP_DB_DATABASE_NAME_SHP=nic
+launchctl setenv DESKTOP_DB_HOSTNAME 10.8.13.49

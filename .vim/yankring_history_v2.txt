@@ -1,3 +1,7 @@
+set statusline+=%#warningmsg#set statusline+=%{SyntasticStatuslineFlag()}set statusline+=%*let g:syntastic_always_populate_loc_list = 1let g:syntastic_auto_loc_list = 1let g:syntastic_check_on_open = 1let g:syntastic_check_on_wq = 0,v
+contingency,v
+3)├── glob@3.2.11 (inherits@2.0.1, minimatch@0.3.0),V
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim,V
 https://fedguild.slack.com/archives/random/p1453397378000032,v
 ,V
 PetsPortal/,V
@@ -94,7 +98,3 @@ base,v
 ($,v
 (,v
 desaturate,v
-$footer-background: ,v
-  $footer-background: desaturate(darken($base-accent-color, 20%), 30%);,V
-fff ,v
-// U.footer-2 {,V

@@ -37,7 +37,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
-Plugin 'Shutnik/jshint2.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'scrooloose/syntastic'
@@ -55,6 +54,7 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'amix/vim-zenroom2'
 Plugin 'mhinz/vim-startify'
 Plugin 'junegunn/limelight.vim'
+Plugin 'mxw/vim-jsx'
 Plugin 'elliotec/rapid.vim'
 call vundle#end()
 " Re-enable filetype when Vundle is done
@@ -141,8 +141,6 @@ set history=1000
 set undodir=~/Dropbox/dotfiles/.vim/tmp/undo/
 set undolevels=1000
 set undoreload=10000
-" JSHint on save
-autocmd BufWritePost *.js silent :JSHint
 " Specify syntax on certain filetypes
 autocmd BufNewFile,BufRead *.md,*.markdown setlocal ft=markdown
 autocmd BufNewFile,BufRead *.less setlocal ft=less
