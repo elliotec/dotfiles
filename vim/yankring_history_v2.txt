@@ -1,0 +1,100 @@
+This is closely related to what we know as Existentialism as well as Nihilism, but is different in that existentialism focuses on one's free will and encouragement of creating one's own meaning, nihilism focuses on the futility of the effort to find this meaning and encourages not even trying, while absurdism's focus is to accept this disconnect and live a contented life knowing that one will not find meaning despite his efforts to do so, and that it is possible to make the seeking of meaning the meaning in itself.,V
+.,v
+,,v
+the ,v
+hing,v
+",v
+Søren Kierkegaard,v
+The ,v
+me ,v
+by ,v
+defined ,v
+that ,v
+facts ,v
+or ,v
+your ,v
+Mihály Csíkszentmihályi,v
+-,v
+gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include    ,v
+http://www.iflscience.com/brain/researchers-uncover-method-learn-new-skills-twice-fast,v
+https://github.com/hahlee/spotifyApp.git,v
+ ,v
+h,v
+t,v
+i,v
+w,v
+r,v
+a,v
+s,v
+o,v
+c,v
+e,v
+j,v
+p,v
+f,v
+I,v
+n,v
+u,v
+b,v
+g,v
+l,v
+',v
+y,v
+m,v
+d,v
+M,v
+#,v
+embedded#,v
+jquery ,v
+but ,v
+, ,v
+nothing,v
+than ,v
+better ,v
+is ,v
+anything ,v
+with ,v
+Starting ,v
+,V
+one,v
+:,v
+building ,v
+websites ,v
+only ,v
+step ,v
+actually ,v
+necessary,v
+  You might notice the lack of some very popular social networks,V
+Twitter ,v
+active ,v
+;,V
+),v
+},v
+  }),V
+  it('puts winner of current vote back to entries', () => {    const state = Map({      vote: Map({        pair: List.of('Trainspotting', '28 Days Later'),        tally: Map({          'Trainspotting': 4,          '28 Days Later': 2        })      }),      entries: List.of('Sunshine', 'Millions', '127 Hours')    });    const nextState = next(state);    expect(nextState).to.equal(Map({      vote: Map({        pair: List.of('Sunshine', 'Millions')      }),      entries: List.of('127 Hours', 'Trainspotting')    }));  });  it('puts both from tied vote back to entries', () => {    const state = Map({      vote: Map({        pair: List.of('Trainspotting', '28 Days Later'),        tally: Map({          'Trainspotting': 3,          '28 Days Later': 3        })      }),      entries: List.of('Sunshine', 'Millions', '127 Hours')    });    const nextState = next(state);    expect(nextState).to.equal(Map({      vote: Map({        pair: List.of('Sunshine', 'Millions')      }),      entries: List.of('127 Hours', 'Trainspotting', '28 Days Later')    }));  });,v
+name,v
+func,v
+describe( 'vote', () => {    it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });  },v
+describe('vote', () => {    it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });  });,V
+  },V
+);,V
+it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });,v
+(,v
+  describe 'vote', (),V
+http://localhost/login?redirect_url=http://www.cars.overstock.com:9090,v
+                  <!--<h6>"We can sell this Car to you for $19,000."</h6>-->,V
+http://spreadsheets.github.io/jQuery.sheet/,v
+we ,v
+http://blogs.baruch.cuny.edu/authenticityandastonishment2/files/2013/04/Mihaly-Csikszentmihalyi-Flow1.pdf,v
+Raiderstickets@overstock.com,v
+Plugin 'junegunn/goyo.vim'Plugin 'amix/vim-zenroom2'Plugin 'mhinz/vim-startify'Plugin 'junegunn/limelight.vim',v
+Plugin 'godlygeek/tabular'Plugin 'plasticboy/vim-markdown'Plugin 'suan/vim-instant-markdown',v
+export DESKTOP_DB_HOSTNAME=10.8.13.49export DESKTOP_DB_DATABASE_NAME_SHP=niclaunchctl setenv DESKTOP_DB_HOSTNAME 10.8.13.49,v
+rpm,v
+   <module>CarsPortal-rpm</module>,V
+https://www.washingtonpost.com/national/health-science/a-one-time-party-drug-is-helping-people-with-deep-depression/2016/02/01/d3e73862-b490-11e5-a76a-0b5145e8679a_story.html,v
+/blank,v
+k,v
+>,v
+=,v
+/,v

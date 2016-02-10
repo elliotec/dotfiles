@@ -1,0 +1,15 @@
+pane	0	0	:~	1	:*	0	:/Users/melliott	1	zsh	:
+pane	cars	0	:..s/carsBackend	1	:*	0	:/Users/melliott/cars/carsBackend	1	zsh	:
+pane	cars	0	:..s/carsBackend	1	:*	1	:/Users/melliott/cars/carsBackend/CarsSearch/CarsSearch-webapp	0	java	:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -classpath /usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar -Dclassworlds.conf=/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf -Dmaven.home=/usr/local/Cellar/maven/3.3.3/libexec -Dmaven.multiModuleProjectDirectory=/Users/melliott/cars/carsBackend/CarsSearch/CarsSearch-webapp org.codehaus.plexus.classworlds.launcher.Launcher jetty:run
+pane	cars	0	:..s/carsBackend	1	:*	2	:/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp/assets/src	0	node	:grunt  
+pane	cars	0	:..s/carsBackend	1	:*	3	:/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp	0	java	:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/bin/java -classpath /usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar -Dclassworlds.conf=/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf -Dmaven.home=/usr/local/Cellar/maven/3.3.3/libexec -Dmaven.multiModuleProjectDirectory=/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp org.codehaus.plexus.classworlds.launcher.Launcher jetty:run
+pane	cars	1	:vim	0	:	0	:/Users/melliott/cars/carsBackend/CarsPortal/CarsPortal-webapp	1	vim	:vim
+pane	cars	2	:vim	0	:-	0	:/Users/melliott/Dropbox/code/reactTutorial/voting-server	0	zsh	:
+pane	cars	2	:vim	0	:-	1	:/Users/melliott/Dropbox/code/reactTutorial/voting-server/test	1	vim	:vim
+pane	write	0	:~	1	:*	0	:/Users/melliott	1	zsh	:
+window	0	0	1	:*	cefe,143x39,0,0,1
+window	cars	0	1	:*	7f71,143x39,0,0{74x39,0,0[74x19,0,0,2,74x19,0,20,3],68x39,75,0[68x19,75,0,4,68x19,75,20,5]}
+window	cars	1	0	:	cf03,143x39,0,0,6
+window	cars	2	0	:-	39d9,143x39,0,0{38x39,0,0,7,104x39,39,0,8}
+window	write	0	1	:*	67af,143x39,0,0,10
+state	cars	write

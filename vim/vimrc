@@ -3,7 +3,7 @@ set nocompatible
 " turns off filetype while vundle does its thing - required by vundle
 filetype off
 " sets vundle runtime
-set rtp+=~/Dropbox/dotfiles/.vim/bundle/Vundle.vim
+set rtp+=~/Dropbox/dotfiles/vim/bundle/Vundle.vim
 " initializes vundle, run with :PluginInstall
 call vundle#begin()
 " list vundle packages
