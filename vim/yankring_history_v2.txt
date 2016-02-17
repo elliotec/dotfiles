@@ -1,9 +1,70 @@
-This is closely related to what we know as Existentialism as well as Nihilism, but is different in that existentialism focuses on one's free will and encouragement of creating one's own meaning, nihilism focuses on the futility of the effort to find this meaning and encourages not even trying, while absurdism's focus is to accept this disconnect and live a contented life knowing that one will not find meaning despite his efforts to do so, and that it is possible to make the seeking of meaning the meaning in itself.,V
 .,v
+/,v
+img,v
+../../../../../,v
+https://confluence.overstock.com/pages/viewpage.action?pageId=56198982,v
+{  "id": {},  "emailAddress": "olabs.cars@overstock.com",  "newPassword": null,  "existingPassword": null,  "shoppingEmailOption": "S",  "firstName": "olabFname",  "lastName": "olabLname",  "middleInitial": null,  "salutation": null,  "screenName": null,  "cartId": {},  "firstCampaign": null,  "firstCampaignSource": null,  "ipAddress": "10.2.128.230",  "ipAddressTimeStamp": 1455664097,  "customerReferral": null,  "customerPrizmCode": 0,  "billingAddress1": "123 olabs",  "billingAddress2": "apartment olabs",  "billingCity": "salt lake city",  "billingState": "UT",  "billingZip": "84105",  "homePhone": "8015555556",  "workPhone": "8015555555",  "cellPhone": "8015555557",  "accountType": "OVERSTOCK_WEB",  "channel": {}},v
+,V
+# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts#local#127.0.0.1      www.cars.overstock.com# test 249#10.4.140.249 www.overstock.com10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co10.4.140.249 ak2.ostkcdn.com10.4.140.249 ak1.ostkcdn.com10.4.140.78 ak-s.ostkcdn.com10.4.140.249 cot1.ostkcdn.com10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars test#VIP#10.4.144.13   www.cars.overstock.com cars.overstock.com#10.4.176.18    www.overstock.com#cars dev#app0110.8.148.149   www.cars.overstock.com cars.overstock.com10.4.149.33    www.overstock.com,v
+127.0.0.1 localhost127.0.1.1 C1DEV-DL21103# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts## test 249##10.4.140.249 www.overstock.com##10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com#10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co#10.4.140.249 ak2.ostkcdn.com#10.4.140.249 ak1.ostkcdn.com#10.4.140.78 ak-s.ostkcdn.com#10.4.140.249 cot1.ostkcdn.com#10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars dev#10.8.148.149   www.cars.overstock.com127.0.0.1      www.cars.overstock.com10.4.149.33    www.overstock.com www.cars.overstock.com cars.overstock.com10.4.140.249    images.overstock.com10.4.140.249    cdn.overstock.com10.4.140.78    ak-s.ostkcdn.com10.4.140.249    ak1.ostkcdn.com10.4.140.249    ak2.ostkcdn.com10.4.140.249    cot1.ostkcdn.com10.4.140.249    cot2.ostkcdn.com,V
+// image swap when url returns 404,V
+function imageOnError(img) {  img.onerror = '';  img.src = "../img/car-img-backup.png";  return true;},v
+function imageOnError(img) {  img.onerror = '';  img.src = "img/car-img-backup.png";  return true;},v
+  //mobileMenuToggle();,V
+// image swap when url returns 404  function imageOnError(img) {    img.onerror = '';    img.src = "img/car-img-backup.png";    return true;  },v
+https://jira.overstock.com/browse/WMA-525,v
+    <!--<script src="/dist/js/helpers/shared.min.js"></script>-->,V
+DR BENJAMIN HABIB,v
+# BEGIN hosts added by Pulse173.241.145.43   pulse.overstock.com# END hosts added by Pulse127.0.0.1 localhost127.0.1.1 C1DEV-DL21103# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts## test 249##10.4.140.249 www.overstock.com##10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com#10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co#10.4.140.249 ak2.ostkcdn.com#10.4.140.249 ak1.ostkcdn.com#10.4.140.78 ak-s.ostkcdn.com#10.4.140.249 cot1.ostkcdn.com#10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars dev#10.8.148.149   www.cars.overstock.com127.0.0.1      www.cars.overstock.com10.4.149.33    www.overstock.com www.cars.overstock.com cars.overstock.com10.4.140.249    images.overstock.com10.4.140.249    cdn.overstock.com10.4.140.78    ak-s.ostkcdn.com10.4.140.249    ak1.ostkcdn.com10.4.140.249    ak2.ostkcdn.com10.4.140.249    cot1.ostkcdn.com10.4.140.249    cot2.ostkcdn.com,v
+          console.log(response);,V
+      console.log(URL);,V
+item,v
+append,v
+</source>,v
+it’s pretty hacky actually, looping around the browser history,v
+m,v
+o,v
+c,v
+g,v
+n,v
+i,v
+h,v
+t,v
+:,v
+p,v
+        <img alt="art" src="http://nothing.com" class="albumArt">,V
+images,v
+-,v
+art,v
+        <a href="" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>,V
+write,v
+document,v
+l,v
+        <a href="/login" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>,V
+ ,v
+",v
+=,v
+d,v
+#login, #loggedin {  display: none;},v
+          console.log($('.albumArt'));,V
+j,v
+<!doctype html><html>  <head>    <title>Spotify Playlist Creator</title>    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->    <style type="text/css">      .text-overflow {        overflow: hidden;        text-overflow: ellipsis;        white-space: nowrap;        width: 500px;      }    </style>  </head>  <body>    <div class="container">      <div class="row">        <h1 class="col-sm-10">Search for an Artist</h1>        <!--<a href="/login" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>-->      </div>      <form action="">        <input id="artistSearch" type="text">        <button type="submit" class="searchBtn btn btn-primary">Search</button>      </form>      <img alt="art" src="http://nothing.com" class="albumArt">    </div>    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>    <script>  $(".searchBtn").click(getArtist());  function getArtist() {    var searchInput = $("#artistSearch").value;    $.ajax({      url: 'https://api.spotify.com/v1/artists/432R46LaYsJZV2Gmc4jUV5',      type: "get",      dataType: 'json',      success: function(response) {        var images = response.images;        $(images).each(function(i, item) {          $('.albumArt').attr('src', item.url);        });        document.write(response.name);        console.log(response);      },      error: function(response) {        //console.log("error");      },    });  }  getArtist();    </script>  </body></html>,V
+},V
+  display: none;,V
+#login, #loggedin {,V
+    <div class="container">,V
+})();,V
+(function() {,V
+<div id="loggedin">        <div id="user-profile">        </div>        <div id="oauth">        </div>        <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>      </div>,v
+          } else {              // render initial screen              $('#login').show();              $('#loggedin').hide();          }          document.getElementById('obtain-new-token').addEventListener('click', function() {            $.ajax({              url: '/refresh_token',              data: {                'refresh_token': refresh_token              }            }).done(function(data) {              access_token = data.access_token;              oauthPlaceholder.innerHTML = oauthTemplate({                access_token: access_token,                refresh_token: refresh_token              });            });          }, false);        },v
+ /**         * Obtains parameters from the hash of the URL         * @return Object         */        function getHashParams() {          var hashParams = {};          var e, r = /([^&;=]+)=?([^&;]*)/g,              q = window.location.hash.substring(1);          while ( e = r.exec(q)) {             hashParams[e[1]] = decodeURIComponent(e[2]);          }          return hashParams;        }        var userProfileSource = document.getElementById('user-profile-template').innerHTML,            userProfileTemplate = Handlebars.compile(userProfileSource),            userProfilePlaceholder = document.getElementById('user-profile');        var oauthSource = document.getElementById('oauth-template').innerHTML,            oauthTemplate = Handlebars.compile(oauthSource),            oauthPlaceholder = document.getElementById('oauth');        var params = getHashParams();        var access_token = params.access_token,            refresh_token = params.refresh_token,            error = params.error;        if (error) {          alert('There was an error during the authentication');        } else {          if (access_token) {            // render oauth info            oauthPlaceholder.innerHTML = oauthTemplate({              access_token: access_token,              refresh_token: refresh_token            });            $.ajax({                url: 'https://api.spotify.com/v1/me',                headers: {                  'Authorization': 'Bearer ' + access_token                },                success: function(response) {                  userProfilePlaceholder.innerHTML = userProfileTemplate(response);                  $('#login').hide();                  $('#loggedin').hide();                }            });        ,v
+https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj,v
+### Hardware,V
+https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/onerror,v
+This is closely related to what we know as Existentialism as well as Nihilism, but is different in that existentialism focuses on one's free will and encouragement of creating one's own meaning, nihilism focuses on the futility of the effort to find this meaning and encourages not even trying, while absurdism's focus is to accept this disconnect and live a contented life knowing that one will not find meaning despite his efforts to do so, and that it is possible to make the seeking of meaning the meaning in itself.,V
 ,,v
 the ,v
 hing,v
-",v
 Søren Kierkegaard,v
 The ,v
 me ,v
@@ -14,34 +75,20 @@ facts ,v
 or ,v
 your ,v
 Mihály Csíkszentmihályi,v
--,v
 gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include    ,v
 http://www.iflscience.com/brain/researchers-uncover-method-learn-new-skills-twice-fast,v
 https://github.com/hahlee/spotifyApp.git,v
- ,v
-h,v
-t,v
-i,v
 w,v
 r,v
 a,v
 s,v
-o,v
-c,v
 e,v
-j,v
-p,v
 f,v
 I,v
-n,v
 u,v
 b,v
-g,v
-l,v
 ',v
 y,v
-m,v
-d,v
 M,v
 #,v
 embedded#,v
@@ -51,50 +98,3 @@ but ,v
 nothing,v
 than ,v
 better ,v
-is ,v
-anything ,v
-with ,v
-Starting ,v
-,V
-one,v
-:,v
-building ,v
-websites ,v
-only ,v
-step ,v
-actually ,v
-necessary,v
-  You might notice the lack of some very popular social networks,V
-Twitter ,v
-active ,v
-;,V
-),v
-},v
-  }),V
-  it('puts winner of current vote back to entries', () => {    const state = Map({      vote: Map({        pair: List.of('Trainspotting', '28 Days Later'),        tally: Map({          'Trainspotting': 4,          '28 Days Later': 2        })      }),      entries: List.of('Sunshine', 'Millions', '127 Hours')    });    const nextState = next(state);    expect(nextState).to.equal(Map({      vote: Map({        pair: List.of('Sunshine', 'Millions')      }),      entries: List.of('127 Hours', 'Trainspotting')    }));  });  it('puts both from tied vote back to entries', () => {    const state = Map({      vote: Map({        pair: List.of('Trainspotting', '28 Days Later'),        tally: Map({          'Trainspotting': 3,          '28 Days Later': 3        })      }),      entries: List.of('Sunshine', 'Millions', '127 Hours')    });    const nextState = next(state);    expect(nextState).to.equal(Map({      vote: Map({        pair: List.of('Sunshine', 'Millions')      }),      entries: List.of('127 Hours', 'Trainspotting', '28 Days Later')    }));  });,v
-name,v
-func,v
-describe( 'vote', () => {    it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });  },v
-describe('vote', () => {    it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });  });,V
-  },V
-);,V
-it('creates a tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later')        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 1          })        }),        entries: List()      }));    });    it('adds to existing tally for the voted entry', () => {      const state = Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 3,            '28 Days Later': 2          })        }),        entries: List()      });      const nextState = vote(state, 'Trainspotting');      expect(nextState).to.equal(Map({        vote: Map({          pair: List.of('Trainspotting', '28 Days Later'),          tally: Map({            'Trainspotting': 4,            '28 Days Later': 2          })        }),        entries: List()      }));    });,v
-(,v
-  describe 'vote', (),V
-http://localhost/login?redirect_url=http://www.cars.overstock.com:9090,v
-                  <!--<h6>"We can sell this Car to you for $19,000."</h6>-->,V
-http://spreadsheets.github.io/jQuery.sheet/,v
-we ,v
-http://blogs.baruch.cuny.edu/authenticityandastonishment2/files/2013/04/Mihaly-Csikszentmihalyi-Flow1.pdf,v
-Raiderstickets@overstock.com,v
-Plugin 'junegunn/goyo.vim'Plugin 'amix/vim-zenroom2'Plugin 'mhinz/vim-startify'Plugin 'junegunn/limelight.vim',v
-Plugin 'godlygeek/tabular'Plugin 'plasticboy/vim-markdown'Plugin 'suan/vim-instant-markdown',v
-export DESKTOP_DB_HOSTNAME=10.8.13.49export DESKTOP_DB_DATABASE_NAME_SHP=niclaunchctl setenv DESKTOP_DB_HOSTNAME 10.8.13.49,v
-rpm,v
-   <module>CarsPortal-rpm</module>,V
-https://www.washingtonpost.com/national/health-science/a-one-time-party-drug-is-helping-people-with-deep-depression/2016/02/01/d3e73862-b490-11e5-a76a-0b5145e8679a_story.html,v
-/blank,v
-k,v
->,v
-=,v
-/,v
