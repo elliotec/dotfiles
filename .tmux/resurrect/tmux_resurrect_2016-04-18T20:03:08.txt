@@ -1,0 +1,10 @@
+pane	0	0	:vim	0	:-	0	:/home/elliotec/Dropbox/elliotec.github.io	0	zsh	:
+pane	0	0	:vim	0	:-	1	:/home/elliotec/Dropbox/elliotec.github.io	1	vim	:vim
+pane	0	1	:ruby	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	1	zsh	:
+pane	0	1	:ruby	1	:*	1	:/home/elliotec/Dropbox/bloomjuice	0	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby /home/elliotec/.rbenv/versions/2.3.0/bin/guard
+pane	0	1	:ruby	1	:*	2	:/home/elliotec/Dropbox/bloomjuice	0	vim	:vim
+pane	0	2	:vim	0	: 	0	:/home/elliotec/Dropbox/bloomjuice	1	vim	:vim
+window	0	0	0	:-	f211,191x54,0,0{40x54,0,0,1,150x54,41,0,2}
+window	0	1	1	:*	2434,191x54,0,0{50x54,0,0[50x27,0,0,3,50x26,0,28,4],140x54,51,0,5}
+window	0	2	0	: 	bf43,191x54,0,0,6
+state	0	0

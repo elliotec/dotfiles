@@ -40,9 +40,9 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'valloric/matchtagalways'
+Plugin 'valloric/MatchTagAlways'
 Plugin 'terryma/vim-expand-region'
-Plugin 'yankring.vim'
+Plugin 'vim-scripts/YankRing.vim'
 Plugin 'rking/ag.vim'
 Plugin 'osyo-manga/vim-over'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -56,6 +56,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'junegunn/limelight.vim'
 Plugin 'mxw/vim-jsx'
 Plugin 'elliotec/rapid.vim'
+Plugin 'jaxbot/browserlink.vim'
 call vundle#end()
 " Re-enable filetype when Vundle is done
 filetype plugin indent on
@@ -81,6 +82,9 @@ set mouse=a
 set number
 " Enable smart case matching
 set smartcase
+" viminfo location
+set viminfo='100,n$HOME/.vim/files/info/viminfo
+
 " Keep encoding utf-8
 set encoding=utf-8
 set fileencoding=utf-8
@@ -108,6 +112,8 @@ augroup checktime
         autocmd FocusGained     * silent! checktime
     endif
 augroup END
+" true term colors
+"set termguicolors
 " Use unix line endings
 set fileformat=unix
 " always show status bar
@@ -124,7 +130,7 @@ autocmd FileType make set noexpandtab
 set shiftwidth=2
 set softtabstop=2
 " size of a hard tabstop
-set tabstop=2
+set tabstop=4
 " smarter indent for C-like languages
 set smartindent
 " show tabs with dashes and trailing spaces with dots
@@ -162,7 +168,7 @@ let mapleader = "\<Space>"
 " map jj to esc
 inoremap jj <ESC>
 " clipboard bindings
-set clipboard=unnamed
+set clipboard=unnamedplus
 " better ways to get to beginning and end of line
 nnoremap H 0
 nnoremap L $
@@ -245,12 +251,10 @@ let g:tmuxline_powerline_separators = 0
 " writing mode on markdown files
 autocmd bufread,bufnewfile *.md,*.markdown setlocal spell
 autocmd bufread,bufnewfile *.md,*.markdown setlocal wrap
-"autocmd bufread,bufnewfile *.md,*.markdown setlocal foldmethod=indent
 autocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()
 autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})
 let g:vim_markdown_frontmatter = 1
-augroup end
-"let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_folding_level = 6
 function! s:goyo_enter()
   silent !tmux set status off
   Goyo 100x90%
@@ -262,3 +266,32 @@ function! s:goyo_leave()
 endfun
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
+" This is to generate ctags in a project for code definition follow
+map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+
+command! -complete=shellcmd -nargs=+ Shell call s:RunShellCommand(<q-args>)
+function! s:RunShellCommand(cmdline)
+  let isfirst = 1
+  let words = []
+  for word in split(a:cmdline)
+    if isfirst
+      let isfirst = 0  " don't change first word (shell command)
+    else
+      if word[0] =~ '\v[%#<]'
+        let word = expand(word)
+      endif
+      let word = shellescape(word, 1)
+    endif
+    call add(words, word)
+  endfor
+  let expanded_cmdline = join(words)
+  botright new
+  setlocal buftype=nofile bufhidden=wipe nobuflisted noswapfile nowrap
+  call setline(1, 'You entered:  ' . a:cmdline)
+  call setline(2, 'Expanded to:  ' . expanded_cmdline)
+  call append(line('$'), substitute(getline(2), '.', '=', 'g'))
+  silent execute '$read !'. expanded_cmdline
+  1
+endfunction
+command! -complete=file -nargs=* RunJS call s:RunShellCommand('node '.<q-args>
+map <Leader>js :RunJS %

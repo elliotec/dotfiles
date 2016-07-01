@@ -1,0 +1,14 @@
+pane	0	0	:vim	1	:*	0	:/home/elliotec/Dropbox/bootcamp/formProject	1	vim	:vim
+pane	0	0	:vim	1	:*	1	:/home/elliotec/Dropbox/bootcamp/formProject	0	vim	:vim
+pane	0	2	:vim	0	:	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
+pane	0	2	:vim	0	:	1	:/home/elliotec/Dropbox/mybook/htbawd	0	zsh	:
+pane	0	3	:zsh	0	:-	0	:/home/elliotec/Dropbox/mybook	1	zsh	:
+pane	codeTime	0	:zsh	1	:*	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
+pane	codeTime	1	:npm	0	:-	0	:/home/elliotec/Dropbox/code/electron-quick-start	1	npm	:npm
+pane	codeTime	1	:npm	0	:-	1	:/home/elliotec/Dropbox/code/electron-quick-start	0	vim	:vim
+window	0	0	1	:*	f8f5,80x23,0,0{39x23,0,0,1,40x23,40,0,2}
+window	0	2	0	:	3b70,80x23,0,0{74x23,0,0,3,5x23,75,0,4}
+window	0	3	0	:-	ae62,80x23,0,0,5
+window	codeTime	0	1	:*	bf43,191x54,0,0,6
+window	codeTime	1	0	:-	2891,191x54,0,0{65x54,0,0,7,125x54,66,0,8}
+state	codeTime	0

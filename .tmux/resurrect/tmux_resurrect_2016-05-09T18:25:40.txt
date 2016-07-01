@@ -1,0 +1,10 @@
+pane	0	1	:ruby	0	:-	0	:/home/elliotec/Dropbox/bloomjuice	1	zsh	:
+pane	0	1	:ruby	0	:-	1	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
+pane	0	1	:ruby	0	:-	2	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
+pane	0	2	:vim	1	:*	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
+pane	0	2	:vim	1	:*	1	:/home/elliotec/Dropbox/mybook/htbawd	0	zsh	:
+pane	0	3	:zsh	0	:	0	:/home/elliotec/Dropbox/mybook	1	zsh	:
+window	0	1	0	:-	866c,191x54,0,0{58x54,0,0[58x27,0,0,3,58x26,0,28,4],132x54,59,0,5}
+window	0	2	1	:*	a626,191x54,0,0{130x54,0,0,6,60x54,131,0,7}
+window	0	3	0	:	bf45,191x54,0,0,8
+state	0	

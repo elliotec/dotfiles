@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/melliott/.oh-my-zsh
+export ZSH=/Users/elliotec/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,7 +49,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/local/heroku/bin:/Users/melliott/.rbenv/shims:/Users/melliott/.rbenv/bin:/usr/local/bin:./node_modules/.bin:/Users/melliott/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/heroku/bin:/Users/elliotec/.rbenv/shims:/Users/elliotec/.rbenv/bin:/usr/local/bin:./node_modules/.bin:/Users/elliotec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -72,15 +72,6 @@ source $ZSH/oh-my-zsh.sh
 # set term colors
 export TERM="screen-256color"
 
-# Switch java versions with $ java_use 1.x
-function java_use() {
-    export JAVA_HOME=$(/usr/libexec/java_home -v $1)
-    export PATH=$JAVA_HOME/bin:$PATH
-    java -version
-}
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-export PATH=$JAVA_HOME/bin:$PATH
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -89,13 +80,5 @@ export PATH=$JAVA_HOME/bin:$PATH
 #for mapping Ctrl-S to save for vim
 stty -ixon
 
-alias sem="cd ~/sem/trunk/SalesManager-ui-webapp/src/main/webapp"
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
 alias showAll='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideAll='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-alias clinst='mvn clean install -U -DskipTests'
-
-export DESKTOP_DB_HOSTNAME=10.8.13.49
-export DESKTOP_DB_DATABASE_NAME_SHP=nic
-launchctl setenv DESKTOP_DB_HOSTNAME 10.8.13.49

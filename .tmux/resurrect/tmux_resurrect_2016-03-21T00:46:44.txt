@@ -1,0 +1,8 @@
+pane	1	0	:~	1	:*	0	:/Users/elliotec	1	zsh	:
+pane	tmux	0	:..ox/bloomjuice	0	:-	0	:/Users/elliotec/Dropbox/bloomjuice	1	zsh	:
+pane	tmux	1	:..ox/bloomjuice	1	:*	0	:/Users/elliotec/Dropbox/bloomjuice	0	zsh	:
+pane	tmux	1	:..ox/bloomjuice	1	:*	1	:/Users/elliotec/Dropbox/bloomjuice	1	zsh	:
+window	1	0	1	:*	c203,141x36,0,0,6
+window	tmux	0	0	:-	c1fd,141x36,0,0,0
+window	tmux	1	1	:*	dad4,141x36,0,0{70x36,0,0,7,70x36,71,0,8}
+state	tmux	1

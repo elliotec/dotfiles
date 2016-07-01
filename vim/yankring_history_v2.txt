@@ -1,100 +1,100 @@
-.,v
-/,v
-img,v
-../../../../../,v
-https://confluence.overstock.com/pages/viewpage.action?pageId=56198982,v
-{  "id": {},  "emailAddress": "olabs.cars@overstock.com",  "newPassword": null,  "existingPassword": null,  "shoppingEmailOption": "S",  "firstName": "olabFname",  "lastName": "olabLname",  "middleInitial": null,  "salutation": null,  "screenName": null,  "cartId": {},  "firstCampaign": null,  "firstCampaignSource": null,  "ipAddress": "10.2.128.230",  "ipAddressTimeStamp": 1455664097,  "customerReferral": null,  "customerPrizmCode": 0,  "billingAddress1": "123 olabs",  "billingAddress2": "apartment olabs",  "billingCity": "salt lake city",  "billingState": "UT",  "billingZip": "84105",  "homePhone": "8015555556",  "workPhone": "8015555555",  "cellPhone": "8015555557",  "accountType": "OVERSTOCK_WEB",  "channel": {}},v
+set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.aiset wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx" enable matchit plugin which ships with vim and enhances '%'runtime macros/matchit.vim,v
 ,V
-# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts#local#127.0.0.1      www.cars.overstock.com# test 249#10.4.140.249 www.overstock.com10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co10.4.140.249 ak2.ostkcdn.com10.4.140.249 ak1.ostkcdn.com10.4.140.78 ak-s.ostkcdn.com10.4.140.249 cot1.ostkcdn.com10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars test#VIP#10.4.144.13   www.cars.overstock.com cars.overstock.com#10.4.176.18    www.overstock.com#cars dev#app0110.8.148.149   www.cars.overstock.com cars.overstock.com10.4.149.33    www.overstock.com,v
-127.0.0.1 localhost127.0.1.1 C1DEV-DL21103# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts## test 249##10.4.140.249 www.overstock.com##10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com#10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co#10.4.140.249 ak2.ostkcdn.com#10.4.140.249 ak1.ostkcdn.com#10.4.140.78 ak-s.ostkcdn.com#10.4.140.249 cot1.ostkcdn.com#10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars dev#10.8.148.149   www.cars.overstock.com127.0.0.1      www.cars.overstock.com10.4.149.33    www.overstock.com www.cars.overstock.com cars.overstock.com10.4.140.249    images.overstock.com10.4.140.249    cdn.overstock.com10.4.140.78    ak-s.ostkcdn.com10.4.140.249    ak1.ostkcdn.com10.4.140.249    ak2.ostkcdn.com10.4.140.249    cot1.ostkcdn.com10.4.140.249    cot2.ostkcdn.com,V
-// image swap when url returns 404,V
-function imageOnError(img) {  img.onerror = '';  img.src = "../img/car-img-backup.png";  return true;},v
-function imageOnError(img) {  img.onerror = '';  img.src = "img/car-img-backup.png";  return true;},v
-  //mobileMenuToggle();,V
-// image swap when url returns 404  function imageOnError(img) {    img.onerror = '';    img.src = "img/car-img-backup.png";    return true;  },v
-https://jira.overstock.com/browse/WMA-525,v
-    <!--<script src="/dist/js/helpers/shared.min.js"></script>-->,V
-DR BENJAMIN HABIB,v
-# BEGIN hosts added by Pulse173.241.145.43   pulse.overstock.com# END hosts added by Pulse127.0.0.1 localhost127.0.1.1 C1DEV-DL21103# The following lines are desirable for IPv6 capable hosts::1     localhost ip6-localhost ip6-loopbackfe00::0 ip6-localnetff00::0 ip6-mcastprefixff02::1 ip6-allnodesff02::2 ip6-allroutersff02::3 ip6-allhosts## test 249##10.4.140.249 www.overstock.com##10.4.140.249 images.overstock.com10.4.140.249 images01.overstock.com#10.4.140.249 cdn.overstock.com10.4.140.249 www.o.biz10.4.140.249 www.auctions.com10.4.140.249 www.o.co#10.4.140.249 ak2.ostkcdn.com#10.4.140.249 ak1.ostkcdn.com#10.4.140.78 ak-s.ostkcdn.com#10.4.140.249 cot1.ostkcdn.com#10.4.140.249 cot2.ostkcdn.com10.4.140.249 www.o.info#cars dev#10.8.148.149   www.cars.overstock.com127.0.0.1      www.cars.overstock.com10.4.149.33    www.overstock.com www.cars.overstock.com cars.overstock.com10.4.140.249    images.overstock.com10.4.140.249    cdn.overstock.com10.4.140.78    ak-s.ostkcdn.com10.4.140.249    ak1.ostkcdn.com10.4.140.249    ak2.ostkcdn.com10.4.140.249    cot1.ostkcdn.com10.4.140.249    cot2.ostkcdn.com,v
-          console.log(response);,V
-      console.log(URL);,V
-item,v
-append,v
-</source>,v
-it’s pretty hacky actually, looping around the browser history,v
-m,v
-o,v
-c,v
-g,v
-n,v
-i,v
-h,v
-t,v
-:,v
-p,v
-        <img alt="art" src="http://nothing.com" class="albumArt">,V
-images,v
--,v
-art,v
-        <a href="" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>,V
-write,v
-document,v
-l,v
-        <a href="/login" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>,V
  ,v
 ",v
-=,v
+set directory=~/.vim/tmp//set backupdir=~/.vim/tmp//" undo files and persistant undosset undofileset history=1000set undodir=~/Dropbox/dotfiles/.vim/tmp/undo/set undolevels=1000set undoreload=10000,v
+let g:tmuxline_powerline_separators = 0" writing mode on markdown filesautocmd bufread,bufnewfile *.md,*.markdown setlocal spellautocmd bufread,bufnewfile *.md,*.markdown setlocal wrapautocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})let g:vim_markdown_frontmatter = 1let g:vim_markdown_folding_level = 6function! s:goyo_enter()  silent !tmux set status off  Goyo 100x90%  Limelightendfunfunction! s:goyo_leave()  silent !tmux set status on  Limelight!endfunautocmd! User GoyoEnter nested call <SID>goyo_enter()autocmd! User GoyoLeave nested call <SID>goyo_leave()" This is to generate ctags in a project for code definition followmap <Leader>rt :!ctags --extra=+f -R *<CR><CR>,v
+let g:tmuxline_powerline_separators = 0" writing mode on markdown filesautocmd bufread,bufnewfile *.md,*.markdown setlocal spellautocmd bufread,bufnewfile *.md,*.markdown setlocal wrapautocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})let g:vim_markdown_frontmatter = 1let g:vim_markdown_folding_level = 6function! s:goyo_enter()  silent !tmux set status off  Goyo 100x90%  Limelightendfunfunction! s:goyo_leave()  silent !tmux set status on  Limelight!endfunautocmd! User GoyoEnter nested call <SID>goyo_enter()autocmd! User GoyoLeave nested call <SID>goyo_leave()" This is to generate ctags in a project for code definition followmap <Leader>rt :!ctags --extra=+f -R *<CR><CR>,v
+let g:user_emmet_expandabbr_key = '<c-y>',v
+let g:user_emmet_expandabbr_key = '<c-y>',V
+" Swap lines up and downnnoremap <C-j> :m .+1<CR>==nnoremap <C-k> :m .-2<CR>==inoremap <C-j> <Esc>:m .+1<CR>==giinoremap <C-k> <Esc>:m .-2<CR>==givnoremap <C-j> :m '>+1<CR>gv=gvvnoremap <C-k> :m '<-2<CR>gv=gv" Easy buffer switchnmap <leader>l :bnext<CR>nmap <leader>h :bprevious<CR>" kill scratch buffer after selection is madeautocmd CursorMovedI * if pumvisible() == 0|pclose|endifautocmd InsertLeave * if pumvisible() == 0|pclose|endif"Destroy distractionsnnoremap <silent> <leader>z :Goyo<cr>,v
+" Keep encoding utf-8set encoding=utf-8set fileencoding=utf-8" Backspace kills end of line and moves to previousset backspace=indent,eol,start" Keep buffers in the background when abandonedset hidden" ignore lots of filesset wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.aiset wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx" enable matchit plugin which ships with vim and enhances '%'runtime macros/matchit.vim" Show me what I'll doset showcmd" Enble autoread, some weird magic here that works well.set autoreadaugroup checktime    au!    if !has("gui_running")        autocmd BufEnter        * silent! checktime        autocmd CursorHold      * silent! checktime        autocmd CursorHoldI     * silent! checktime        autocmd CursorMoved     * silent! checktime        autocmd CursorMovedI    * silent! checktime        autocmd FocusGained     * silent! checktime    endifaugroup END" true term colors"set termguicolors" Use unix line endingsset fileformat=unix" always show status barset laststatus=2" only show status in status barset noshowmode" autoindent based on line aboveset autoindent" use spaces instead of tabs (noexpandtab for opposite)set expandtab" for makefilesautocmd FileType make set noexpandtab" tabs are 2 spaces while reading and insert modeset shiftwidth=2set softtabstop=2" size of a hard tabstopset tabstop=4" smarter indent for C-like languagesset smartindent" show tabs with dashes and trailing spaces with dotsset listchars=tab:--,trail:·set list" keep cursor visible within 8 lines while scrollingset scrolloff=8" Swaps and backups go in tmpset directory=~/.vim/tmp//set backupdir=~/.vim/tmp//" undo files and persistant undosset undofileset history=1000set undodir=~/Dropbox/dotfiles/.vim/tmp/undo/set undolevels=1000set undoreload=10000" Specify syntax on certain filetypesautocmd BufNewFile,BufRead *.md,*.markdown setlocal ft=markdownautocmd BufNewFile,BufRead *.less setlocal ft=lessautocmd BufNewFile,BufRead *.scss setlocal ft=scss" autocomplete words with spell checkset complete+=kspell" Remove trailing whitespace on savefunction! <SID>StripTrailingWhitespaces()    let l = line(".")    let c = col(".")    %s/\s\+$//e    call cursor(l, c)endfunautocmd BufWritePre * :call <SID>StripTrailingWhitespaces()" Set current colorscheme (from .vim/colors/)colorscheme molokai" Set space as map leaderlet mapleader = "\<Space>"" map jj to escinoremap jj <ESC>" clipboard bindingsset clipboard=unnamed" better ways to get to beginning and end of linennoremap H 0nnoremap L $" expand region visual by repeating v rather than +vmap v <Plug>(expand_region_expand)vmap <C-v> <Plug>(expand_region_shrink)" map ,ev to edit vimrcnnoremap <leader>ev :vsp $MYVIMRC<CR>" save with <leader>wnnoremap <leader>w :w<CR>" set vim-over command to leader fnnoremap <leader>f :OverCommandLine<CR>" toggle nerdtree with ctrl-omap <C-o> :NERDTreeToggle %:p:h<CR>" tab and shift-tab do proper thingvmap <Tab> >gvvmap <S-Tab> <gv" Make Y behave like other Capitals (C, D, etc.)noremap Y y$" rainbow parens always onau VimEnter * RainbowParenthesesToggleau Syntax * RainbowParenthesesLoadRoundau Syntax * RainbowParenthesesLoadSquareau Syntax * RainbowParenthesesLoadBraces" dictionary pathset dictionary="/usr/dict/words"" lightline settingslet g:lightline = {      \ 'colorscheme': 'wombat',      \ 'active': {      \   'left': [ [ 'mode', 'paste' ],      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],      \  'right': [ [ 'lineinfo' ],      \             [ 'percent' ],      \             [ 'filetype' ] ]      \ },      \ 'component': {      \   'readonly': '%{&readonly?"x":""}',      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'      \ },      \ 'component_visible_condition': {      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'      \ },      \ 'separator': { 'left': '', 'right': '' },      \ 'subseparator': { 'left': '|', 'right': '|' }      \ },V
+let g:lightline = {      \ 'colorscheme': 'wombat',      \ 'active': {      \   'left': [ [ 'mode', 'paste' ],      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],      \  'right': [ [ 'lineinfo' ],      \             [ 'percent' ],      \             [ 'filetype' ] ]      \ },      \ 'component': {      \   'readonly': '%{&readonly?"x":""}',      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'      \ },      \ 'component_visible_condition': {      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'      \ },      \ 'separator': { 'left': '', 'right': '' },      \ 'subseparator': { 'left': '|', 'right': '|' }      \ }",v
+let g:lightline = {      \ 'colorscheme': 'wombat',      \ 'active': {      \   'left': [ [ 'mode', 'paste' ],      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],      \  'right': [ [ 'lineinfo' ],      \             [ 'percent' ],      \             [ 'filetype' ] ]      \ },      \ 'component': {      \   'readonly': '%{&readonly?"x":""}',      \   'fugitive': '%{exists("*fugitive#head")?fugitive#head():""}'      \ },      \ 'component_visible_condition': {      \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'      \ },      \ 'separator': { 'left': '', 'right': '' },      \ 'subseparator': { 'left': '|', 'right': '|' }      \ }" Swap lines up and downnnoremap <C-j> :m .+1<CR>==nnoremap <C-k> :m .-2<CR>==inoremap <C-j> <Esc>:m .+1<CR>==giinoremap <C-k> <Esc>:m .-2<CR>==givnoremap <C-j> :m '>+1<CR>gv=gvvnoremap <C-k> :m '<-2<CR>gv=gv",v
+	·,v
+" Set current colorscheme (from .vim/colors/)colorscheme molokai" Set space as map leaderlet mapleader = "\<Space>"" map jj to escinoremap jj <ESC>,v
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim,v
 d,v
-#login, #loggedin {  display: none;},v
-          console.log($('.albumArt'));,V
-j,v
-<!doctype html><html>  <head>    <title>Spotify Playlist Creator</title>    <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->    <style type="text/css">      .text-overflow {        overflow: hidden;        text-overflow: ellipsis;        white-space: nowrap;        width: 500px;      }    </style>  </head>  <body>    <div class="container">      <div class="row">        <h1 class="col-sm-10">Search for an Artist</h1>        <!--<a href="/login" class="btn btn-primary col-sm-2" style="margin-top:25px">Log In with Spotify</a>-->      </div>      <form action="">        <input id="artistSearch" type="text">        <button type="submit" class="searchBtn btn btn-primary">Search</button>      </form>      <img alt="art" src="http://nothing.com" class="albumArt">    </div>    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>    <script>  $(".searchBtn").click(getArtist());  function getArtist() {    var searchInput = $("#artistSearch").value;    $.ajax({      url: 'https://api.spotify.com/v1/artists/432R46LaYsJZV2Gmc4jUV5',      type: "get",      dataType: 'json',      success: function(response) {        var images = response.images;        $(images).each(function(i, item) {          $('.albumArt').attr('src', item.url);        });        document.write(response.name);        console.log(response);      },      error: function(response) {        //console.log("error");      },    });  }  getArtist();    </script>  </body></html>,V
-},V
-  display: none;,V
-#login, #loggedin {,V
-    <div class="container">,V
-})();,V
-(function() {,V
-<div id="loggedin">        <div id="user-profile">        </div>        <div id="oauth">        </div>        <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>      </div>,v
-          } else {              // render initial screen              $('#login').show();              $('#loggedin').hide();          }          document.getElementById('obtain-new-token').addEventListener('click', function() {            $.ajax({              url: '/refresh_token',              data: {                'refresh_token': refresh_token              }            }).done(function(data) {              access_token = data.access_token;              oauthPlaceholder.innerHTML = oauthTemplate({                access_token: access_token,                refresh_token: refresh_token              });            });          }, false);        },v
- /**         * Obtains parameters from the hash of the URL         * @return Object         */        function getHashParams() {          var hashParams = {};          var e, r = /([^&;=]+)=?([^&;]*)/g,              q = window.location.hash.substring(1);          while ( e = r.exec(q)) {             hashParams[e[1]] = decodeURIComponent(e[2]);          }          return hashParams;        }        var userProfileSource = document.getElementById('user-profile-template').innerHTML,            userProfileTemplate = Handlebars.compile(userProfileSource),            userProfilePlaceholder = document.getElementById('user-profile');        var oauthSource = document.getElementById('oauth-template').innerHTML,            oauthTemplate = Handlebars.compile(oauthSource),            oauthPlaceholder = document.getElementById('oauth');        var params = getHashParams();        var access_token = params.access_token,            refresh_token = params.refresh_token,            error = params.error;        if (error) {          alert('There was an error during the authentication');        } else {          if (access_token) {            // render oauth info            oauthPlaceholder.innerHTML = oauthTemplate({              access_token: access_token,              refresh_token: refresh_token            });            $.ajax({                url: 'https://api.spotify.com/v1/me',                headers: {                  'Authorization': 'Bearer ' + access_token                },                success: function(response) {                  userProfilePlaceholder.innerHTML = userProfileTemplate(response);                  $('#login').hide();                  $('#loggedin').hide();                }            });        ,v
-https://api.spotify.com/v1/albums/0sNOF9WDwhWunNAHPD3Baj,v
-### Hardware,V
-https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/onerror,v
-This is closely related to what we know as Existentialism as well as Nihilism, but is different in that existentialism focuses on one's free will and encouragement of creating one's own meaning, nihilism focuses on the futility of the effort to find this meaning and encourages not even trying, while absurdism's focus is to accept this disconnect and live a contented life knowing that one will not find meaning despite his efforts to do so, and that it is possible to make the seeking of meaning the meaning in itself.,V
-,,v
-the ,v
-hing,v
-Søren Kierkegaard,v
-The ,v
-me ,v
-by ,v
-defined ,v
-that ,v
-facts ,v
-or ,v
-your ,v
-Mihály Csíkszentmihályi,v
-gem install eventmachine -- --with-cppflags=-I/usr/local/opt/openssl/include    ,v
-http://www.iflscience.com/brain/researchers-uncover-method-learn-new-skills-twice-fast,v
-https://github.com/hahlee/spotifyApp.git,v
-w,v
-r,v
+why ,v
+are ,v
+my ,v
+colors ,v
+weir,v
+    - [Beautilist](http://beautilist.herokuapp.com),V
+want ,v
+!,v
+t,v
+i,v
+k,v
 a,v
-s,v
 e,v
-f,v
-I,v
-u,v
+r,v
 b,v
 ',v
+n,v
+o,v
+s,v
+l,v
+p,v
+,,v
+fragile ,v
+so ,v
+    - [Horizontal](http://howibecameawebdeveloper.com:8181) -- horizon/vue realtime chat, want to do other cool stuff with it. VERY much in dev mode, so fragile currently, please don't break it!,V
+unstable ,v
+and ,v
+u,v
+insecure ,v
+],v
+),v
+(,v
+http://howibecameawebdeveloper.com:8181/,v
+162.243.139.66,v
+reasons,v
+of ,v
+lots ,v
+for ,v
+practicing ,v
+http://elliotec.com/floatin-in-space/,v
+eventual ,v
+projects,v
+building,v
+project ,v
+Elixer,v
+https://github.com/mgonto/restangular,v
+http://spacemacs.org/,v
+linkedin,v
+LinkedIn,v
+  - [LinkedIn](https://linkedin.com/in/elliotec),V
+w,v
+twitter,v
+Twitter,v
+  - [Twitter](https://twitter.com/elliotecweb),V
+-,v
+http://elliotec.com/how-i-got-a-job-in-web-development/,v
+http://elliotec.com/writing-in-the-deseret-alphabet/,v
+http://elliotec.com/teach-your-skills-for-fun-and-profit/,v
+any ,v
+http://www.cyfyifanchen.com/silly-side-projects/,v
 y,v
-M,v
-#,v
-embedded#,v
-jquery ,v
-but ,v
-, ,v
-nothing,v
-than ,v
+springboarded ,v
 better ,v
+to ,v
+like ,v
+others,v
+but ,v
+fun,v
+APIs ,v
+ibuilt ,v
+built APIs and services ,v
+stack,v
+the ,v
+areas ,v
+out,v
+them ,v
+find ,v
+how ,v
+knowing ,v
+either ,v
+comfortable ,v
+most ,v
+feel ,v

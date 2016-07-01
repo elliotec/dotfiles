@@ -1,0 +1,8 @@
+pane	code	0	:vim	0	:-	0	:/home/elliotec/Dropbox/code/horizontal	0	horizon	:horizon
+pane	code	0	:vim	0	:-	1	:/home/elliotec/Dropbox/code/horizontal	0	zsh	:
+pane	code	0	:vim	0	:-	2	:/home/elliotec/Dropbox/code/horizontal	1	vim	:vim
+pane	code	0	:vim	0	:-	3	:/home/elliotec/Dropbox/code/horizontal	0	vim	:vim
+pane	code	1	:vim	1	:*	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
+window	code	0	0	:-	91a5,213x57,0,0{36x57,0,0[36x29,0,0,0,36x27,0,30,2],90x57,37,0,1,85x57,128,0,3}
+window	code	1	1	:*	ca61,213x57,0,0,4
+state	code	

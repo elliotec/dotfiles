@@ -1,0 +1,9 @@
+pane	0	0	:zsh	1	:*	0	:/home/elliotec	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/elliotec	1	zsh	:
+pane	bloom	0	:ruby	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	1	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby bin/rails s
+pane	bloom	0	:ruby	1	:*	1	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
+pane	bloom	0	:ruby	1	:*	2	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
+window	0	0	1	:*	bf3d,191x54,0,0,0
+window	2	0	1	:*	ae61,80x23,0,0,4
+window	bloom	0	1	:*	2859,191x54,0,0{58x54,0,0[58x26,0,0,1,58x27,0,27,2],132x54,59,0,3}
+state	bloom	2

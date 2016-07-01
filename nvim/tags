@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+<C-j>	init.vim	/^inoremap <C-j> <Esc>:m .+1<CR>==gi$/;"	m
+<C-j>	init.vim	/^nnoremap <C-j> :m .+1<CR>==$/;"	m
+<C-j>	init.vim	/^vnoremap <C-j> :m '>+1<CR>gv=gv$/;"	m
+<C-k>	init.vim	/^inoremap <C-k> <Esc>:m .-2<CR>==gi$/;"	m
+<C-k>	init.vim	/^nnoremap <C-k> :m .-2<CR>==$/;"	m
+<C-k>	init.vim	/^vnoremap <C-k> :m '<-2<CR>gv=gv$/;"	m
+<C-o>	init.vim	/^map <C-o> :NERDTreeToggle %:p:h<CR>$/;"	m
+<Leader>rt	init.vim	/^map <Leader>rt :!ctags --extra=+f -R *<CR><CR>$/;"	m
+<S-Tab>	init.vim	/^vmap <S-Tab> <gv$/;"	m
+<TAB>	init.vim	/^inoremap <expr><TAB>  pumvisible() ? "\\<C-n>" : "\\<TAB>"$/;"	m
+<Tab>	init.vim	/^vmap <Tab> >gv$/;"	m
+<leader>ev	init.vim	/^nnoremap <leader>ev :vsp $MYVIMRC<CR>$/;"	m
+<leader>h	init.vim	/^nmap <leader>h :bprevious<CR>$/;"	m
+<leader>l	init.vim	/^nmap <leader>l :bnext<CR>$/;"	m
+<leader>w	init.vim	/^nnoremap <leader>w :w<CR>$/;"	m
+<leader>z	init.vim	/^nnoremap <silent> <leader>z :Goyo<CR>$/;"	m
+DoRemote	init.vim	/^function! DoRemote(arg)$/;"	f
+StripTrailingWhitespaces	init.vim	/^function! <SID>StripTrailingWhitespaces()$/;"	f
+Y	init.vim	/^noremap Y y\$$/;"	m
+append_ul	autoload/plug.vim	/^function! s:append_ul(lnum, text)$/;"	f
+ask	autoload/plug.vim	/^function! s:ask(message)$/;"	f
+assign_name	autoload/plug.vim	/^function! s:assign_name()$/;"	f
+assoc	autoload/plug.vim	/^function! s:assoc(dict, key, val)$/;"	f
+bang	autoload/plug.vim	/^function! s:bang(cmd, ...)$/;"	f
+bar	autoload/plug.vim	/^function! s:bar()$/;"	f
+check_ruby	autoload/plug.vim	/^function! s:check_ruby()$/;"	f
+checkout	autoload/plug.vim	/^function! s:checkout(spec)$/;"	f
+chsh	autoload/plug.vim	/^function! s:chsh(swap)$/;"	f
+clean	autoload/plug.vim	/^function! s:clean(force)$/;"	f
+compare_git_uri	autoload/plug.vim	/^function! s:compare_git_uri(a, b)$/;"	f
+define_commands	autoload/plug.vim	/^function! s:define_commands()$/;"	f
+diff	autoload/plug.vim	/^function! s:diff()$/;"	f
+dirpath	autoload/plug.vim	/^  function! s:dirpath(path)$/;"	f
+do	autoload/plug.vim	/^function! s:do(pull, force, todo)$/;"	f
+doautocmd	autoload/plug.vim	/^function! s:doautocmd(...)$/;"	f
+dobufread	autoload/plug.vim	/^function! s:dobufread(names)$/;"	f
+err	autoload/plug.vim	/^function! s:err(msg)$/;"	f
+esc	autoload/plug.vim	/^function! s:esc(path)$/;"	f
+escrtp	autoload/plug.vim	/^function! s:escrtp(path)$/;"	f
+extract_name	autoload/plug.vim	/^function! s:extract_name(str, prefix, suffix)$/;"	f
+find_name	autoload/plug.vim	/^function! s:find_name(lnum)$/;"	f
+finish	autoload/plug.vim	/^function! s:finish(pull)$/;"	f
+finish_bindings	autoload/plug.vim	/^function! s:finish_bindings()$/;"	f
+format_git_log	autoload/plug.vim	/^function! s:format_git_log(line)$/;"	f
+format_message	autoload/plug.vim	/^function! s:format_message(bullet, name, message)$/;"	f
+g:colors_name	colors/molokai.vim	/^let g:colors_name="molokai"$/;"	v
+g:ctrlp_map	init.vim	/^let g:ctrlp_map = '<c-p>'$/;"	v
+g:deoplete#enable_at_startup	init.vim	/^let g:deoplete#enable_at_startup = 1$/;"	v
+g:lightline	init.vim	/^let g:lightline = {$/;"	v
+g:loaded_plug	autoload/plug.vim	/^let g:loaded_plug = 1$/;"	v
+g:plugs_order	autoload/plug.vim	/^  let g:plugs_order = get(g:, 'plugs_order', keys(g:plugs))$/;"	v
+g:tern_request_timeout	init.vim	/^let g:tern_request_timeout = 1$/;"	v
+g:tmuxline_powerline_separators	init.vim	/^let g:tmuxline_powerline_separators = 0$/;"	v
+g:user_emmet_expandabbr_key	init.vim	/^let g:user_emmet_expandabbr_key = '<c-y>'$/;"	v
+g:vim_markdown_folding_level	init.vim	/^let g:vim_markdown_folding_level = 6$/;"	v
+g:vim_markdown_frontmatter	init.vim	/^let g:vim_markdown_frontmatter = 1$/;"	v
+git_validate	autoload/plug.vim	/^function! s:git_validate(spec, check_branch)$/;"	f
+git_version_requirement	autoload/plug.vim	/^function! s:git_version_requirement(...)$/;"	f
+glob	autoload/plug.vim	/^function! s:glob(from, pattern)$/;"	f
+glob_dir	autoload/plug.vim	/^function! s:glob_dir(path)$/;"	f
+goyo_enter	init.vim	/^function! s:goyo_enter()$/;"	f
+goyo_leave	init.vim	/^function! s:goyo_leave()$/;"	f
+hash_match	autoload/plug.vim	/^function! s:hash_match(a, b)$/;"	f
+infer_properties	autoload/plug.vim	/^function! s:infer_properties(name, repo)$/;"	f
+init.vim	init.vim	1;"	F
+install	autoload/plug.vim	/^function! s:install(force, names)$/;"	f
+is_local_plug	autoload/plug.vim	/^  function! s:is_local_plug(repo)$/;"	f
+is_managed	autoload/plug.vim	/^function! s:is_managed(name)$/;"	f
+is_preview_window_open	autoload/plug.vim	/^function! s:is_preview_window_open()$/;"	f
+is_updated	autoload/plug.vim	/^function! s:is_updated(dir)$/;"	f
+jj	init.vim	/^inoremap jj <ESC>$/;"	m
+jk	init.vim	/^inoremap jk <ESC>$/;"	m
+job_abort	autoload/plug.vim	/^function! s:job_abort()$/;"	f
+job_handler	autoload/plug.vim	/^function! s:job_handler(job_id, data, event) abort$/;"	f
+lastline	autoload/plug.vim	/^function! s:lastline(msg)$/;"	f
+lines	autoload/plug.vim	/^function! s:lines(msg)$/;"	f
+loaded_names	autoload/plug.vim	/^function! s:loaded_names()$/;"	f
+lod	autoload/plug.vim	/^function! s:lod(names, types, ...)$/;"	f
+lod_cmd	autoload/plug.vim	/^function! s:lod_cmd(cmd, bang, l1, l2, args, names)$/;"	f
+lod_ft	autoload/plug.vim	/^function! s:lod_ft(pat, names)$/;"	f
+lod_map	autoload/plug.vim	/^function! s:lod_map(map, names, prefix)$/;"	f
+log	autoload/plug.vim	/^function! s:log(bullet, name, lines)$/;"	f
+log4	autoload/plug.vim	/^function! s:log4(name, msg)$/;"	f
+logpos	autoload/plug.vim	/^function! s:logpos(name)$/;"	f
+lpad	autoload/plug.vim	/^function! s:lpad(str, len)$/;"	f
+mapleader	init.vim	/^let mapleader = "\\<Space>"$/;"	v
+molokai.vim	colors/molokai.vim	1;"	F
+names	autoload/plug.vim	/^function! s:names(...)$/;"	f
+new_window	autoload/plug.vim	/^function! s:new_window()$/;"	f
+parse_options	autoload/plug.vim	/^function! s:parse_options(arg)$/;"	f
+path	autoload/plug.vim	/^  function! s:path(path)$/;"	f
+plug#	autoload/plug.vim	/^function! plug#(repo, ...)$/;"	f
+plug#begin	autoload/plug.vim	/^function! plug#begin(...)$/;"	f
+plug#end	autoload/plug.vim	/^function! plug#end()$/;"	f
+plug#helptags	autoload/plug.vim	/^function! plug#helptags()$/;"	f
+plug#load	autoload/plug.vim	/^function! plug#load(...)$/;"	f
+plug.vim	autoload/plug.vim	1;"	F
+plug_window_exists	autoload/plug.vim	/^function! s:plug_window_exists()$/;"	f
+prepare	autoload/plug.vim	/^function! s:prepare(...)$/;"	f
+preview_commit	autoload/plug.vim	/^function! s:preview_commit()$/;"	f
+progress_bar	autoload/plug.vim	/^function! s:progress_bar(line, bar, total)$/;"	f
+progress_opt	autoload/plug.vim	/^function! s:progress_opt(base)$/;"	f
+reap	autoload/plug.vim	/^function! s:reap(name)$/;"	f
+regress_bar	autoload/plug.vim	/^function! s:regress_bar()$/;"	f
+reload	autoload/plug.vim	/^function! s:reload()$/;"	f
+remove_rtp	autoload/plug.vim	/^function! s:remove_rtp()$/;"	f
+remove_triggers	autoload/plug.vim	/^function! s:remove_triggers(name)$/;"	f
+reorg_rtp	autoload/plug.vim	/^function! s:reorg_rtp()$/;"	f
+retry	autoload/plug.vim	/^function! s:retry()$/;"	f
+revert	autoload/plug.vim	/^function! s:revert()$/;"	f
+rm_rf	autoload/plug.vim	/^function! s:rm_rf(dir)$/;"	f
+rtp	autoload/plug.vim	/^  function! s:rtp(spec)$/;"	f
+s:TYPE	autoload/plug.vim	/^let s:TYPE = {$/;"	v
+s:base_spec	autoload/plug.vim	/^let s:base_spec = { 'branch': 'master', 'frozen': 0 }$/;"	v
+s:cpo_save	autoload/plug.vim	/^let s:cpo_save = &cpo$/;"	v
+s:first_rtp	autoload/plug.vim	/^let s:first_rtp = s:escrtp(get(s:split_rtp(), 0, ''))$/;"	v
+s:is_win	autoload/plug.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:last_rtp	autoload/plug.vim	/^let s:last_rtp  = s:escrtp(get(s:split_rtp(), -1, ''))$/;"	v
+s:loaded	autoload/plug.vim	/^let s:loaded = get(s:, 'loaded', {})$/;"	v
+s:mac_gui	autoload/plug.vim	/^let s:mac_gui = has('gui_macvim') && has('gui_running')$/;"	v
+s:me	autoload/plug.vim	/^let s:me = resolve(expand('<sfile>:p'))$/;"	v
+s:molokai_original	colors/molokai.vim	/^    let s:molokai_original = 0$/;"	v
+s:molokai_original	colors/molokai.vim	/^    let s:molokai_original = g:molokai_original$/;"	v
+s:nvim	autoload/plug.vim	/^let s:nvim = has('nvim') && exists('*jobwait') && !s:is_win$/;"	v
+s:plug_buf	autoload/plug.vim	/^let s:plug_buf = get(s:, 'plug_buf', -1)$/;"	v
+s:plug_src	autoload/plug.vim	/^let s:plug_src = 'https:\/\/github.com\/junegunn\/vim-plug.git'$/;"	v
+s:plug_tab	autoload/plug.vim	/^let s:plug_tab = get(s:, 'plug_tab', -1)$/;"	v
+s:triggers	autoload/plug.vim	/^let s:triggers = get(s:, 'triggers', {})$/;"	v
+section	autoload/plug.vim	/^function! s:section(flags)$/;"	f
+shellesc	autoload/plug.vim	/^function! s:shellesc(arg)$/;"	f
+snapshot	autoload/plug.vim	/^function! s:snapshot(force, ...) abort$/;"	f
+source	autoload/plug.vim	/^function! s:source(from, ...)$/;"	f
+spawn	autoload/plug.vim	/^function! s:spawn(name, cmd, opts)$/;"	f
+split_rtp	autoload/plug.vim	/^function! s:split_rtp()$/;"	f
+status	autoload/plug.vim	/^function! s:status()$/;"	f
+status_load	autoload/plug.vim	/^function! s:status_load(lnum)$/;"	f
+status_update	autoload/plug.vim	/^function! s:status_update() range$/;"	f
+switch_in	autoload/plug.vim	/^function! s:switch_in()$/;"	f
+switch_out	autoload/plug.vim	/^function! s:switch_out(...)$/;"	f
+syntax	autoload/plug.vim	/^function! s:syntax()$/;"	f
+system	autoload/plug.vim	/^function! s:system(cmd, ...)$/;"	f
+system_chomp	autoload/plug.vim	/^function! s:system_chomp(...)$/;"	f
+tick	autoload/plug.vim	/^function! s:tick()$/;"	f
+to_a	autoload/plug.vim	/^function! s:to_a(v)$/;"	f
+to_s	autoload/plug.vim	/^function! s:to_s(v)$/;"	f
+trim	autoload/plug.vim	/^function! s:trim(str)$/;"	f
+update	autoload/plug.vim	/^function! s:update(force, names)$/;"	f
+update_finish	autoload/plug.vim	/^function! s:update_finish()$/;"	f
+update_impl	autoload/plug.vim	/^function! s:update_impl(pull, force, args) abort$/;"	f
+update_python	autoload/plug.vim	/^function! s:update_python()$/;"	f
+update_ruby	autoload/plug.vim	/^function! s:update_ruby()$/;"	f
+update_vim	autoload/plug.vim	/^function! s:update_vim()$/;"	f
+upgrade	autoload/plug.vim	/^function! s:upgrade()$/;"	f
+upgrade_specs	autoload/plug.vim	/^function! s:upgrade_specs()$/;"	f
+version_requirement	autoload/plug.vim	/^function! s:version_requirement(val, min)$/;"	f
+warn	autoload/plug.vim	/^function! s:warn(cmd, msg)$/;"	f
+with_cd	autoload/plug.vim	/^function! s:with_cd(cmd, dir)$/;"	f

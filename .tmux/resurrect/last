@@ -1,9 +1,1 @@
-pane	0	0	:zsh	1	:*	0	:/home/elliotec	1	zsh	:
-pane	bloom	0	:vim	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	0	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby bin/rails s
-pane	bloom	0	:vim	1	:*	1	:/home/elliotec/Dropbox/bloomjuice	0	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby /home/elliotec/.rbenv/versions/2.3.0/bin/guard
-pane	bloom	0	:vim	1	:*	2	:/home/elliotec/Dropbox/bloomjuice/app/assets/javascripts/refills	1	vim	:vim
-pane	bloom	1	:zsh	0	:-	0	:/home/elliotec/Dropbox/mybook	1	zsh	:
-window	0	0	1	:*	b25d,80x24,0,0,0
-window	bloom	0	1	:*	bf8e,239x61,0,0{82x61,0,0[82x31,0,0,1,82x29,0,32,2],156x61,83,0,3}
-window	bloom	1	0	:-	b7e1,239x61,0,0,4
-state	bloom	0
+tmux_resurrect_2016-06-29T16:59:24.txt

@@ -1,0 +1,7 @@
+pane	codewrite	0	:zsh	0	:-	0	:/home/elliotec/Dropbox/bloomjuice	1	zsh	:
+pane	codewrite	0	:zsh	0	:-	1	:/home/elliotec/Dropbox/bloomjuice	0	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby /home/elliotec/.rbenv/versions/2.3.0/bin/guard
+pane	codewrite	0	:zsh	0	:-	2	:/home/elliotec/Dropbox/bloomjuice/app/views/pages	0	vim	:vim
+pane	codewrite	1	:vim	1	:*	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
+window	codewrite	0	0	:-	2418,191x54,0,0{50x54,0,0[50x27,0,0,0,50x26,0,28,2],140x54,51,0,1}
+window	codewrite	1	1	:*	bf40,191x54,0,0,3
+state	codewrite	
