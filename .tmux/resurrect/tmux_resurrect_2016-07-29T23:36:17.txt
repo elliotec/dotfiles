@@ -1,0 +1,9 @@
+pane	code	0	:nvim	0	:	0	:/Users/elliotec/Dropbox/chiminera/app/assets/stylesheets/modules	1	nvim	:nvim
+pane	code	1	:rails	0	:	0	:/Users/elliotec/Dropbox/chiminera	1	ruby	:/Users/elliotec/.rbenv/versions/2.3.0/bin/ruby bin/rails s
+pane	code	2	:..heets/modules	0	:-	0	:/Users/elliotec/Dropbox/chiminera/app/assets/stylesheets/modules	1	zsh	:
+pane	code	3	:nvim	1	:*	0	:/Users/elliotec	1	nvim	:nvim .tmux
+window	code	0	0	:	cefd,143x39,0,0,0
+window	code	1	0	:	cefe,143x39,0,0,1
+window	code	2	0	:-	ceff,143x39,0,0,2
+window	code	3	1	:*	cf00,143x39,0,0,3
+state	code	

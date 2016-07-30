@@ -1,6 +1,30 @@
+8,v
+*,v
+ ,v
+Merge Request !5170,v
+quash ,v
+squash ,v
+pick ,v
+pick 56aa6d2 projects: add container_registry_enabled to API docs,V
+pick eb865bf update_service: remove trailing whitespace,V
+pick 9e33ca1 docs: fix some typos,V
+pick 5dcea40 gitlab-org/gitlab-ci-multi-runner#1478 Fixed phpunit command in the official doc didn't work. Curl command has to follow redirects now.,V
+pick 9a08fa0 Wrong gitlab-shell version,V
+pick d9c4943 Fix typo and explain the precedence of STDERR and STDOUT,V
+pick 5369743 Make subnavigation a bit darker color,V
+3bae69a Update ui_guide.md with button capitalize rule,V
+git rebase --interactive HEAD~2,v
+https://gitlab.com/elliotec/gitlab-ce,v
+git@gitlab.com:elliotec/gitlab-ce.git,v
+  },V
+http://tobyho.com/2010/11/22/javascript-constructors-and/,v
+https://bluejeans.com/9023901827/,v
+what is going on?????,V
+https://twitter.com/fasterthanlime/status/750030443882409984,v
+Where to start about why I want to work for GitLab?Aside from it's aspects of creativity and problem solving, a big part of why I got into the software industry was because of the mobility and progressiveness associated with it. Sometime during my time initially learning Rails, I was reading as much as I could about DHH's philosophies, especially about business and productivity, and I read Rework by DHH and Jason Fried. I was totally floored by the fact that people are creating businesses like this, and decided that the ability to work remotely is one of the defining characteristics of the industry, and one of the greater advances of labor in modern times. My wife and I both come from international families and have relatives in several countries abroad and have long dreamed of being able to spend time with them and in our places of heritage, while still doing what we love and making a living all the same.Having already been in the industry at the time, but not yet having an opportunity to find such progressive companies, I've since kept my eye out for a company that stood out to me as one that I could feel comfortable entrenching myself in the culture and sticking around long enough to retire out of. But as it happens, most companies that I've spent time or been involved with are not as progressive as the idyllic model put in my head by Rework. My homeland of Utah has a slowly progressing but fairly conservative business culture and, while I have had a lot of success here with my career and network growth, I have struggled to find a niche in a company that I could consider permanent.I am an active participant on Hacker News and the other day saw Brittany's comment on "Who is Hiring July 2016." I had been following GitLab since the infamous "Dear Github" letter (https://github.com/dear-github/dear-github) and had been impressed with everything I saw. I immediately had interest, but I haven't been on the lookout for something new, and since I have been fairly content in my current position, and along with the fact that GitLab is Y Combinator-backed as well as an international remote company, I was a bit hesitant to apply and face certainly strong competition. But the more I read about the company, it's values, culture, mission, and strategy, the more I realized there is nothing to lose and even a chance at an interview for a company such as this would be worth at least whatever time and effort it takes to put in an application and cover letter, so here we are.Speaking of a chance at an interview, this is the first time I've seen a company with a reasonable technical interview that assesses by what the candidate would actually do on the job. I've heard of companies doing such things, but the vast majority of interviews I've had were whiteboarding and heavily theoretical tests that had little to nothing to do with the daily tasks. I must admit I'm a little intimidated by that type of interview since it's not what I'm used to, but I'm far more intrigued and eager because I feel I'm finally getting a chance at the progressive nature of the enigmatic employer that I've long been dreaming of.In my research on GitLab, I was poking through the team page when I noticed a few business development folks working in close proximity to my city. I've reached out to all of them and have lunch planned with Mitchell Wright a little later this week. I planned to wait until after that to apply, but figured I might as well get a head start and give him credit for referring me (which he certainly did via our email conversations).I've had an engineering and enrepreneurial mind all my life, and I'm beyond greatful that it has led me to the path of success and growth that I have been able to achieve. I feel an obligation to teach and mentor others following a similar path, and want to continue my own growth by working with people I know have similar ideas to me, and conflicting ones that I can learn from and adapt to and ultimately grow ourselves and each other. And I believe GitLab may be the place where that can happen.Thank you very much for your consideration,Mike,V
+Konfekt/FastFold,v
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.aiset wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx" enable matchit plugin which ships with vim and enhances '%'runtime macros/matchit.vim,v
 ,V
- ,v
 ",v
 set directory=~/.vim/tmp//set backupdir=~/.vim/tmp//" undo files and persistant undosset undofileset history=1000set undodir=~/Dropbox/dotfiles/.vim/tmp/undo/set undolevels=1000set undoreload=10000,v
 let g:tmuxline_powerline_separators = 0" writing mode on markdown filesautocmd bufread,bufnewfile *.md,*.markdown setlocal spellautocmd bufread,bufnewfile *.md,*.markdown setlocal wrapautocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})let g:vim_markdown_frontmatter = 1let g:vim_markdown_folding_level = 6function! s:goyo_enter()  silent !tmux set status off  Goyo 100x90%  Limelightendfunfunction! s:goyo_leave()  silent !tmux set status on  Limelight!endfunautocmd! User GoyoEnter nested call <SID>goyo_enter()autocmd! User GoyoLeave nested call <SID>goyo_leave()" This is to generate ctags in a project for code definition followmap <Leader>rt :!ctags --extra=+f -R *<CR><CR>,v
@@ -74,27 +98,3 @@ http://elliotec.com/how-i-got-a-job-in-web-development/,v
 http://elliotec.com/writing-in-the-deseret-alphabet/,v
 http://elliotec.com/teach-your-skills-for-fun-and-profit/,v
 any ,v
-http://www.cyfyifanchen.com/silly-side-projects/,v
-y,v
-springboarded ,v
-better ,v
-to ,v
-like ,v
-others,v
-but ,v
-fun,v
-APIs ,v
-ibuilt ,v
-built APIs and services ,v
-stack,v
-the ,v
-areas ,v
-out,v
-them ,v
-find ,v
-how ,v
-knowing ,v
-either ,v
-comfortable ,v
-most ,v
-feel ,v

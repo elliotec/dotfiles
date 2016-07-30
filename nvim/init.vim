@@ -1,5 +1,3 @@
-let g:python_host_prog='/usr/bin/python'
-let g:python3_host_prog='/usr/bin/python3'
 call plug#begin('~/.nvim/plugged')
 function! DoRemote(arg)
   UpdateRemotePlugins
@@ -26,6 +24,7 @@ Plug 'tpope/vim-rails'
 Plug 'jaxbot/browserlink.vim'
 Plug 'mhinz/vim-startify'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'suan/vim-instant-markdown'
@@ -73,7 +72,8 @@ nnoremap <C-u> :UndotreeToggle<CR>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>f :FZF ~<CR>
+nnoremap <leader>ff :FZF<CR>
+nnoremap <leader>fl :Ag<CR>
 noremap Y y$
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
@@ -134,6 +134,7 @@ let g:tern_request_timeout = 1
 let g:indentLine_enabled = 0
 let g:indentLine_char = '┆'
 let g:neomake_javascript_enabled_makers = ['eslint']
+let NERDTreeShowHidden=1
 runtime macros/matchit.vim
 function! s:goyo_enter()
   silent !tmux set status off
@@ -146,4 +147,3 @@ function! s:goyo_leave()
 endfun
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
-

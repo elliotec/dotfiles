@@ -1,0 +1,8 @@
+pane	0	0	:zsh	1	:*	0	:/home/elliotec	1	zsh	:
+pane	code	0	:zsh	1	:*	0	:/home/elliotec/Dropbox/code/gitlab/gitlab-ce	1	nvim	:nvim
+pane	code	0	:zsh	1	:*	1	:/home/elliotec/Dropbox/code/gitlab/gitlab-ce	0	nvim	:nvim
+pane	code	1	:vim	0	:-	0	:/home/elliotec/Dropbox/code/gitlab-development-kit/postgresql/data	1	zsh	:
+window	0	0	1	:*	bf3e,191x54,0,0,1
+window	code	0	1	:*	467c,191x54,0,0{95x54,0,0,2,95x54,96,0,4}
+window	code	1	0	:-	bf40,191x54,0,0,3
+state	code	0
