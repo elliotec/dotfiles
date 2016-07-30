@@ -58,10 +58,10 @@ set dictionary="/usr/dict/words"
 set directory=~/.vim/tmp//
 set backupdir=~/.vim/tmp//
 set undofile
-set history=1000
+set history=500
 set undodir=~/.vim/tmp/undo/
-set undolevels=1000
-set undoreload=10000
+set undolevels=500
+set undoreload=5000
 
 let mapleader = "\<Space>"
 inoremap jj <ESC>
@@ -72,8 +72,8 @@ nnoremap <C-u> :UndotreeToggle<CR>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>ff :FZF<CR>
-nnoremap <leader>fl :Ag<CR>
+nnoremap <leader>fz :FZF<CR>
+nnoremap <leader>f :Ag<CR>
 noremap Y y$
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
@@ -81,8 +81,6 @@ inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
-nmap <leader>l :bnext<CR>
-nmap <leader>h :bprevious<CR>
 nnoremap <silent> <leader>z :Goyo<CR>
 
 " generates ctags for code follow, use with Ctrl-]
