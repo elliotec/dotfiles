@@ -1,0 +1,9 @@
+pane	ostk	0	:npm	0	:	0	:/Users/melliott/ostk/mobile_deux	1	node	:npm   
+pane	ostk	1	:nvim	0	:-	0	:/Users/melliott/ostk/mobile_deux/src/App/Footer/Links	1	nvim	:nvim
+pane	ostk	2	:..k/mobile_deux	0	:	0	:/Users/melliott/ostk/mobile_deux	1	zsh	:
+pane	ostk	3	:nvim	1	:*	0	:/Users/melliott/ostk	1	nvim	:nvim
+window	ostk	0	0	:	cefd,143x39,0,0,0
+window	ostk	1	0	:-	cefe,143x39,0,0,1
+window	ostk	2	0	:	ceff,143x39,0,0,2
+window	ostk	3	1	:*	cf00,143x39,0,0,3
+state	ostk	

@@ -1,3 +1,4 @@
+<div class="payment-method">  <,v
 8,v
 *,v
  ,v
@@ -97,4 +98,3 @@ Twitter,v
 http://elliotec.com/how-i-got-a-job-in-web-development/,v
 http://elliotec.com/writing-in-the-deseret-alphabet/,v
 http://elliotec.com/teach-your-skills-for-fun-and-profit/,v
-any ,v

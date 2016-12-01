@@ -8,22 +8,18 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/JS
+~MSle0~/# js
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-:wq
-:w!
 :wqa
 :qa
 
 # Search String History (newest to oldest):
 ? \s\+$
-?/JS
-?/js
 ?/# js
 ?/this
 
@@ -79,74 +75,122 @@ $
 "9	LINE	0
 	what is going on?????
 ""-	CHAR	0
-	*
+	quash 
 
 # File marks:
-'0  1  0  ~/Dropbox/chiminera/.git/MERGE_MSG
-'1  163  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
-'2  150  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
-'3  7  12  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
-'4  26  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
-'5  2  1  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
-'6  12  42  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
-'7  11  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
-'8  1  0  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
-'9  5  30  ~/.gitconfig
+'0  7  12  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
+'1  26  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
+'2  2  1  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
+'3  12  42  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
+'4  11  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
+'5  1  0  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
+'6  5  30  ~/.gitconfig
+'7  154  26  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+'8  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+'9  1  0  ~/Dropbox/coverletter.txt
 
 # Jumplist (newest first):
--'  1  0  ~/Dropbox/chiminera/.git/MERGE_MSG
--'  163  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  153  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  152  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  82  88  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  55  30  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  36  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  16  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  17  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  163  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  153  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  152  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  82  88  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  55  30  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  36  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  16  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  17  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  163  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  153  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  152  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  82  88  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  55  30  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  36  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  16  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  17  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  163  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  153  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  152  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  82  88  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  55  30  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  36  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  16  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
--'  17  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  7  12  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
+-'  1  0  ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
+-'  26  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
+-'  1  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
+-'  2  1  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
+-'  1  0  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
+-'  12  42  ~/gitlab-development-kit/gitlab/.git/rebase-merge/git-rebase-todo
+-'  11  0  ~/gitlab-development-kit/gitlab/.git/COMMIT_EDITMSG
+-'  5  30  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  154  26  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  12  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  1  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  70  0  ~/Dropbox/code/pluralsightAssessment/main.js
+-'  1  0  ~/Dropbox/code/pluralsightAssessment/main.js
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  8  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
+-'  1  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  154  26  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  12  2  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  1  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  70  0  ~/Dropbox/code/pluralsightAssessment/main.js
+-'  1  0  ~/Dropbox/code/pluralsightAssessment/main.js
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  8  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
+-'  1  0  ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
+-'  24  23  ~/Dropbox/dotfiles/nvim/init.vim
+-'  99  0  ~/Dropbox/dotfiles/nvim/init.vim
+-'  1  0  ~/Dropbox/coverletter.txt
+-'  1  0  ~/.config/nvim/NERD_tree_1
+-'  13  2  ~/.config/nvim/NERD_tree_1
 
 # History of marks within files (newest to oldest):
-
-> ~/Dropbox/chiminera/.git/MERGE_MSG
-	"	1	0
-
-> ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
-	"	163	2
-	^	163	2
-	.	163	2
-	+	164	0
-	+	162	76
-	+	163	2
-	j	16	0
-
-> ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
 
 > ~/gitlab-development-kit/gitlab/.git/MERGE_MSG
 	"	7	12
@@ -168,6 +212,14 @@ $
 	^	5	31
 	.	5	30
 	+	5	30
+
+> ~/Dropbox/code/Front-end-Developer-Interview-Questions/README.md
+	"	154	26
+
+> ~/Dropbox/code/Front-end-Developer-Interview-Questions/NERD_tree_1
+	"	8	0
+	.	1	0
+	+	1	0
 
 > ~/Dropbox/code/pluralsightAssessment/main.js
 	"	70	0

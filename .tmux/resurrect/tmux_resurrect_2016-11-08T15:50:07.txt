@@ -1,0 +1,7 @@
+pane	ostk	0	:npm	0	:-	0	:/Users/melliott/ostk/mobile_deux	1	node	:npm   
+pane	ostk	1	:..k/mobile_deux	1	:*	0	:/Users/melliott/ostk/mobile_deux	1	zsh	:
+pane	ostk	4	:nvim	0	:	0	:/Users/melliott/ostk/mobile_deux	1	nvim	:nvim
+window	ostk	0	0	:-	67af,143x39,0,0,10
+window	ostk	1	1	:*	67b2,143x39,0,0,13
+window	ostk	4	0	:	67b8,143x39,0,0,19
+state	ostk	

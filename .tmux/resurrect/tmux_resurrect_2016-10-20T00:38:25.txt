@@ -1,0 +1,13 @@
+pane	0	0	:~	1	:*	0	:/Users/melliott	1	zsh	:
+pane	code	2	:nvim	0	:-	0	:/Users/melliott/ostk/JSTestMobile	1	nvim	:nvim
+pane	code	3	:nvim	1	:*	0	:/Users/melliott/ostk/JSTestMobile	1	nvim	:nvim
+pane	ostk	0	:../JSTestMobile	0	:	0	:/Users/melliott/ostk/JSTestMobile	1	zsh	:
+pane	ostk	1	:nvim	0	:-	0	:/Users/melliott/ostk/JSTestMobile	1	nvim	:nvim
+pane	ostk	2	:nvim	1	:*	0	:/Users/melliott/ostk/JSTestMobile	1	nvim	:nvim
+window	0	0	1	:*	cf04,143x39,0,0,7
+window	code	2	0	:-	ceff,143x39,0,0,2
+window	code	3	1	:*	cf00,143x39,0,0,3
+window	ostk	0	0	:	67b1,143x39,0,0,12
+window	ostk	1	0	:-	67b2,143x39,0,0,13
+window	ostk	2	1	:*	67b3,143x39,0,0,14
+state	ostk	
