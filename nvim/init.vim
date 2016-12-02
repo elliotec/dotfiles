@@ -2,6 +2,7 @@ call plug#begin('~/.nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 Plug 'carlitux/deoplete-ternjs'
 Plug 'gioele/vim-autoswap'
+Plug 'vim-scripts/YankRing.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'neomake/neomake'
@@ -52,18 +53,16 @@ set smartindent
 set autoindent
 set listchars=tab:--,trail:·
 set list
-set shortmess=atI
 set scrolloff=8
 set complete+=kspell
 set dictionary="/usr/dict/words"
-set directory=~/.vim/tmp//
-set backupdir=~/.vim/tmp//
+set directory=~/Dropbox/dotfiles/nvim/tmp//
+set backupdir=~/Dropbox/dotfiles/nvim/tmp/backup//
 set undofile
 set history=500
-set undodir=~/.vim/tmp/undo/
+set undodir=~/Dropbox/dotfiles/nvim/tmp/undo//
 set undolevels=500
 set undoreload=5000
-set cscopetag
 
 let mapleader = "\<Space>"
 inoremap jj <ESC>
