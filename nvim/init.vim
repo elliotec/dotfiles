@@ -33,6 +33,7 @@ Plug 'reedes/vim-litecorrect'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'amix/vim-zenroom2'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
 colorscheme molokai
@@ -75,6 +76,7 @@ vmap <S-Tab> <gv
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
 nnoremap F :FZF<CR>
 nnoremap <silent> <leader>f :Ag <C-R><C-W><CR>
+nnoremap <leader>ag :Ag<space>
 noremap Y y$
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
@@ -83,6 +85,7 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 nnoremap <silent> <leader>z :Goyo<CR>
+noremap <leader>s ysiw
 
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
@@ -103,6 +106,7 @@ autocmd bufread,bufnewfile *.md,*.markdown call litecorrect#init()
 autocmd bufread,bufnewfile *.md,*.markdown call pencil#init({'wrap': 'soft'})
 autocmd! BufWritePost * Neomake
 let g:deoplete#enable_at_startup = 1
+let g:NERDSpaceDelims = 1
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
@@ -133,7 +137,15 @@ let g:jsx_ext_required = 0
 let g:neomake_jsx_enabled_makers = ['eslint']
 let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_open_list = 1
-let g:neomake_list_height = 5
+let g:neomake_list_height = 4
+let g:user_emmet_settings = {
+\  'javascript' : {
+\      'extends' : 'jsx',
+\  },
+\}
+let g:startify_change_to_dir = 0
+let g:startify_custom_header =
+          \ map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['']
 runtime macros/matchit.vim
 function! s:goyo_enter()
   silent !tmux set status off
