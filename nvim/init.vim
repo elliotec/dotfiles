@@ -1,3 +1,4 @@
+" This file should be at ~/.config/nvim/init.vim
 call plug#begin('~/.nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 Plug 'carlitux/deoplete-ternjs'
