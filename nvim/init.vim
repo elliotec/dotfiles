@@ -64,6 +64,7 @@ set history=500
 set undodir=~/Dropbox/dotfiles/nvim/tmp/undo//
 set undolevels=500
 set undoreload=5000
+set colorcolumn=80
 
 let mapleader = "\<Space>"
 inoremap jj <ESC>
