@@ -1,7 +1,0 @@
-pane	0	0	:~	1	:*	0	:/Users/melliott	1	zsh	:
-pane	7	0	:~	1	:*	0	:/Users/melliott	1	zsh	:
-pane	write	0	:..ropbox/mybook	1	:*	0	:/Users/melliott/Dropbox/mybook	1	zsh	:
-window	0	0	1	:*	cefe,143x39,0,0,1
-window	7	0	1	:*	e7b5,143x39,0,0,26
-window	write	0	1	:*	e7b4,143x39,0,0,25
-state	7	

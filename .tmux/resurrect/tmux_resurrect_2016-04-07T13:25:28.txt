@@ -1,5 +1,0 @@
-pane	code	0	:..ox/bloomjuice	1	:*	0	:/Users/elliotec/Dropbox/bloomjuice	0	zsh	:
-pane	code	0	:..ox/bloomjuice	1	:*	1	:/Users/elliotec/Dropbox/bloomjuice	0	zsh	:
-pane	code	0	:..ox/bloomjuice	1	:*	2	:/Users/elliotec/Dropbox/bloomjuice	1	zsh	:
-window	code	0	1	:*	eb16,143x39,0,0{41x39,0,0[41x19,0,0,0,41x19,0,20,2],101x39,42,0,1}
-state	code	

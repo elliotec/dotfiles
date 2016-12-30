@@ -1,5 +1,0 @@
-pane	ostk	0	:nvim	0	:-	0	:/Users/melliott/ostk/mobile_deux	1	nvim	:nvim
-pane	ostk	3	:..k/mobile_deux	1	:*	0	:/Users/melliott/ostk/mobile_deux	1	zsh	:
-window	ostk	0	0	:-	cefd,143x39,0,0,0
-window	ostk	3	1	:*	cf00,143x39,0,0,3
-state	ostk	

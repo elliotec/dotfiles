@@ -1,7 +1,0 @@
-pane	0	0	:zsh	1	:*	0	:/home/elliotec	1	zsh	:
-pane	code	0	:zsh	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	1	zsh	:
-pane	code	1	:vim	0	:-	0	:/home/elliotec/Dropbox/mybook	1	nvim	:nvim
-window	0	0	1	:*	bf3e,191x54,0,0,1
-window	code	0	1	:*	5fd0,191x54,0,0,11
-window	code	1	0	:-	bf43,191x54,0,0,6
-state	code	0

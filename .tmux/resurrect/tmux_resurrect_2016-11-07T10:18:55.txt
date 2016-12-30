@@ -1,5 +1,0 @@
-pane	ostk	0	:npm	1	:*	0	:/Users/melliott/ostk/mobile_deux	1	node	:npm   
-pane	ostk	3	:nvim	0	:-	0	:/Users/melliott/ostk/mobile_deux/src/App/Search/FeaturedProduct	1	nvim	:nvim
-window	ostk	0	1	:*	67af,143x39,0,0,10
-window	ostk	3	0	:-	67b1,143x39,0,0,12
-state	ostk	

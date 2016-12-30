@@ -1,9 +1,0 @@
-pane	ostk	0	:..tec.github.io	0	:	0	:/Users/melliott/Dropbox/elliotec.github.io	1	zsh	:
-pane	ostk	1	:..ropbox/mybook	0	:-	0	:/Users/melliott/Dropbox/mybook	1	zsh	:
-pane	ostk	2	:nvim	1	:*	0	:/Users/melliott/ostk/checkout	1	nvim	:nvim
-pane	ostk	3	:nvim	0	:	0	:/Users/melliott/ostk/checkout	1	nvim	:nvim
-window	ostk	0	0	:	cefd,143x39,0,0,0
-window	ostk	1	0	:-	cefe,143x39,0,0,1
-window	ostk	2	1	:*	ceff,143x39,0,0,2
-window	ostk	3	0	:	cf00,143x39,0,0,3
-state	ostk	

@@ -1,9 +1,0 @@
-pane	0	0	:vim	1	:*	0	:/home/elliotec/Dropbox/bootcamp/formProject	1	vim	:vim
-pane	0	0	:vim	1	:*	1	:/home/elliotec/Dropbox/bootcamp/formProject	0	vim	:vim
-pane	0	2	:vim	0	:	0	:/home/elliotec/Dropbox/mybook	1	vim	:vim
-pane	0	2	:vim	0	:	1	:/home/elliotec/Dropbox/mybook/htbawd	0	zsh	:
-pane	0	3	:zsh	0	:-	0	:/home/elliotec/Dropbox/mybook	1	zsh	:
-window	0	0	1	:*	e39f,191x54,0,0{95x54,0,0,8,95x54,96,0,10}
-window	0	2	0	:	2624,191x54,0,0{130x54,0,0,5,60x54,131,0,6}
-window	0	3	0	:-	bf44,191x54,0,0,7
-state	0	

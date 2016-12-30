@@ -1,6 +1,0 @@
-pane	tmux	0	:vim	0	:-	0	:/Users/elliotec	1	Vim	:/usr/local/Cellar/macvim/7.4-99/MacVim.app/Contents/MacOS/Vim
-pane	tmux	1	:~	1	:*	0	:/Users/elliotec/Dropbox/bloomjuice	0	zsh	:
-pane	tmux	1	:~	1	:*	1	:/Users/elliotec	1	zsh	:
-window	tmux	0	0	:-	c07d,127x35,0,0,0
-window	tmux	1	1	:*	e315,127x35,0,0{63x35,0,0,4,63x35,64,0,5}
-state	tmux	

@@ -1,3 +1,0 @@
-pane	code	0	:vim	1	:*	0	:/home/elliotec/Dropbox/code/rapid.vim	1	vim	:vim
-window	code	0	1	:*	b7de,239x61,0,0,1
-state	code	

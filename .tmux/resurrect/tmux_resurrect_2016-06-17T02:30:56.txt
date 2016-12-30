@@ -1,5 +1,0 @@
-pane	code	0	:vim	1	:*	0	:/home/elliotec/Dropbox/code/horizontal	0	horizon	:horizon
-pane	code	0	:vim	1	:*	1	:/home/elliotec/Dropbox/code/horizontal	0	npm	:npm
-pane	code	0	:vim	1	:*	2	:/home/elliotec/Dropbox/code/horizontal	1	vim	:vim
-window	code	0	1	:*	9e07,191x54,0,0{40x54,0,0[40x27,0,0,0,40x26,0,28,2],150x54,41,0,1}
-state	code	

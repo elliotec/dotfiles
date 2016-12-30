@@ -1,5 +1,0 @@
-pane	bloom	0	:ruby	1	:*	0	:/home/elliotec/Dropbox/bloomjuice	0	zsh	:
-pane	bloom	0	:ruby	1	:*	1	:/home/elliotec/Dropbox/bloomjuice	1	ruby	:/home/elliotec/.rbenv/versions/2.3.0/bin/ruby /home/elliotec/.rbenv/versions/2.3.0/bin/guard
-pane	bloom	0	:ruby	1	:*	2	:/home/elliotec	0	zsh	:
-window	bloom	0	1	:*	3c7b,239x61,0,0{69x61,0,0[69x30,0,0,0,69x30,0,31,2],169x61,70,0,1}
-state	bloom	

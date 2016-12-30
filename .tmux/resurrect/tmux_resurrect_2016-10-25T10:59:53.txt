@@ -1,9 +1,0 @@
-pane	0	0	:nvim	1	:*	0	:/Users/melliott	1	nvim	:nvim
-pane	code	2	:../JSTestMobile	0	:-	0	:/Users/melliott/ostk/JSTestMobile	1	zsh	:
-pane	code	3	:../JSTestMobile	1	:*	0	:/Users/melliott/ostk/JSTestMobile	1	zsh	:
-pane	ostk	2	:..k/mobile_deux	1	:*	0	:/Users/melliott/ostk/mobile_deux	1	zsh	:
-window	0	0	1	:*	cefe,143x39,0,0,1
-window	code	2	0	:-	ceff,143x39,0,0,2
-window	code	3	1	:*	cf00,143x39,0,0,3
-window	ostk	2	1	:*	cf03,143x39,0,0,6
-state	ostk	0

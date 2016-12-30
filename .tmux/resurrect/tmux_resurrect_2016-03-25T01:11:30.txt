@@ -1,5 +1,0 @@
-pane	zoom	0	:vim	1	:*	0	:/Users/elliotec/Dropbox/mybook	1	Vim	:/usr/local/Cellar/macvim/7.4-99/MacVim.app/Contents/MacOS/Vim
-pane	zoom	1	:~	0	:-	0	:/Users/elliotec	1	zsh	:
-window	zoom	0	1	:*	cefd,143x39,0,0,0
-window	zoom	1	0	:-	cefe,143x39,0,0,1
-state	zoom	
