@@ -4,10 +4,12 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 Plug 'carlitux/deoplete-ternjs'
 Plug 'gioele/vim-autoswap'
 Plug 'vim-scripts/YankRing.vim'
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
+Plug 'FredKSchott/CoVim'
 Plug 'ervandew/supertab'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 Plug 'sjl/gundo.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
@@ -34,11 +36,10 @@ Plug 'reedes/vim-litecorrect'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'amix/vim-zenroom2'
-Plug 'vimwiki/vimwiki'
 call plug#end()
 
 colorscheme molokai
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevelstart=20
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.ai
 set wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx
@@ -67,6 +68,7 @@ set undolevels=500
 set undoreload=5000
 set colorcolumn=80
 
+let g:AutoPairsFlyMode = 0
 let mapleader = "\<Space>"
 inoremap jj <ESC>
 inoremap jk <ESC>
@@ -79,6 +81,8 @@ nnoremap <leader>ev :vsp $MYVIMRC<CR>
 nnoremap F :FZF<CR>
 nnoremap <silent> <leader>f :Ag <C-R><C-W><CR>
 nnoremap <leader>ag :Ag<space>
+nnoremap <leader>gs :Gstatus<CR>
+nnoremap <leader>gcm :Gcommit -m<space>
 noremap Y y$
 nnoremap <C-j> :m .+1<CR>==
 nnoremap <C-k> :m .-2<CR>==
@@ -87,7 +91,8 @@ inoremap <C-k> <Esc>:m .-2<CR>==gi
 vnoremap <C-j> :m '>+1<CR>gv=gv
 vnoremap <C-k> :m '<-2<CR>gv=gv
 nnoremap <silent> <leader>z :Goyo<CR>
-noremap <leader>s ysiw
+nnoremap <silent> > :exe "resize " . (winwidth(0) * 3/2)<CR>
+nnoremap <silent> < :exe "resize " . (winwidth(0) * 2/3)<CR>
 
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
@@ -113,7 +118,7 @@ let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'fugitive', 'readonly', 'filename', 'modified' ] ],
+      \             [ 'fugitive', 'readonly', 'relativepath', 'modified' ] ],
       \  'right': [ [ 'lineinfo' ],
       \             [ 'percent' ],
       \             [ 'filetype' ] ]
