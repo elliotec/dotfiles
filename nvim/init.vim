@@ -4,9 +4,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
 Plug 'carlitux/deoplete-ternjs'
 Plug 'gioele/vim-autoswap'
 Plug 'vim-scripts/YankRing.vim'
-" Plug 'jiangmiao/auto-pairs'
-Plug 'FredKSchott/CoVim'
 Plug 'ervandew/supertab'
+Plug 'jaawerth/nrun.vim'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
@@ -22,11 +21,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'mxw/vim-jsx'
-Plug 'mustache/vim-mustache-handlebars'
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'onur/vim-motivate'
-Plug 'mhinz/vim-startify'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'godlygeek/tabular'
@@ -36,6 +30,8 @@ Plug 'reedes/vim-litecorrect'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'amix/vim-zenroom2'
+Plug 'onur/vim-motivate'
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 colorscheme molokai
@@ -59,16 +55,15 @@ set list
 set scrolloff=8
 set complete+=kspell
 set dictionary="/usr/dict/words"
-set directory=~/Dropbox/dotfiles/nvim/tmp//
-set backupdir=~/Dropbox/dotfiles/nvim/tmp/backup//
+set directory=~/.config/nvim/tmp//
+set backupdir=~/.config/nvim/tmp/backup//
 set undofile
 set history=500
-set undodir=~/Dropbox/dotfiles/nvim/tmp/undo//
+set undodir=~/.config/nvim/tmp/undo//
 set undolevels=500
 set undoreload=5000
 set colorcolumn=80
 
-let g:AutoPairsFlyMode = 0
 let mapleader = "\<Space>"
 inoremap jj <ESC>
 inoremap jk <ESC>
@@ -138,13 +133,15 @@ let g:tmuxline_powerline_separators = 0
 let g:vim_markdown_frontmatter = 1
 let g:tern_request_timeout = 1
 let g:indentLine_char = '┆'
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden = 1
 let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:jsx_ext_required = 0
+au BufEnter *.js let b:neomake_javascript_eslint_exe = nrun#Which('eslint')
 let g:neomake_jsx_enabled_makers = ['eslint']
 let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_open_list = 1
-let g:neomake_list_height = 4
+let g:neomake_list_height = 3
+let g:yankring_history_dir = '~/.config/nvim/tmp/yank'
 let g:user_emmet_settings = {
 \  'javascript' : {
 \      'extends' : 'jsx',

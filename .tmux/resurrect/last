@@ -1,1 +1,11 @@
-tmux_resurrect_2017-02-09T00:31:59.txt
+pane	code	0	:zsh	0	:	0	:/Users/melliott	1	zsh	:
+pane	code	2	:zsh	0	:-	0	:/Users/melliott/ostk/redeux	1	zsh	:nvim
+nvim
+pane	code	3	:zsh	1	:*	0	:/Users/melliott/ostk/redeux	1	zsh	:
+pane	code	3	:zsh	1	:*	1	:/Users/melliott/ostk/redeux	0	zsh	:
+pane	ostk	0	:zsh	1	:*	0	:/Users/melliott	1	nvim	:nvim
+window	code	0	0	:	67b4,143x39,0,0,15
+window	code	2	0	:-	67b0,143x39,0,0,11
+window	code	3	1	:*	97eb,143x39,0,0{71x39,0,0,2,71x39,72,0,3}
+window	ostk	0	1	:*	ae63,80x23,0,0,6
+state	code	
