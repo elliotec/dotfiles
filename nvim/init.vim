@@ -1,11 +1,12 @@
 " This file should be at ~/.config/nvim/init.vim
 call plug#begin('~/.nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'gioele/vim-autoswap'
 Plug 'vim-scripts/YankRing.vim'
 Plug 'ervandew/supertab'
-Plug 'jaawerth/nrun.vim'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
@@ -15,7 +16,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'Yggdroot/indentLine'
 Plug 'edkolev/tmuxline.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'jaawerth/nrun.vim'
 Plug 'mattn/emmet-vim'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 Plug 'eapache/rainbow_parentheses.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
@@ -35,8 +39,6 @@ Plug 'mhinz/vim-startify'
 call plug#end()
 
 colorscheme molokai
-set foldmethod=indent
-set foldlevelstart=20
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.ai
 set wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx
 set clipboard=unnamedplus
@@ -63,6 +65,13 @@ set undodir=~/.config/nvim/tmp/undo//
 set undolevels=500
 set undoreload=5000
 set colorcolumn=80
+set foldmethod=indent
+set foldcolumn=1
+set foldlevelstart=20
+hi foldcolumn ctermbg=232
+hi folded ctermbg=232
+hi foldcolumn ctermfg=242
+hi folded ctermfg=242
 
 let mapleader = "\<Space>"
 inoremap jj <ESC>
@@ -89,6 +98,7 @@ nnoremap <silent> <leader>z :Goyo<CR>
 nnoremap <silent> > :exe "resize " . (winwidth(0) * 3/2)<CR>
 nnoremap <silent> < :exe "resize " . (winwidth(0) * 2/3)<CR>
 
+autocmd User Startified setlocal cursorline
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
@@ -149,7 +159,9 @@ let g:user_emmet_settings = {
 \}
 let g:startify_change_to_dir = 0
 let g:startify_custom_header =
-          \ map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['']
+        \ map(split(system('fortune -a -s | cowsay'), '\n'), '"   ". v:val') + ['']
+let g:gist_open_browser_after_post = 1
+let g:gist_detect_filetype = 1
 runtime macros/matchit.vim
 function! s:goyo_enter()
   silent !tmux set status off
@@ -163,3 +175,17 @@ endfun
 autocmd! User GoyoEnter nested call <SID>goyo_enter()
 autocmd! User GoyoLeave nested call <SID>goyo_leave()
 
+ino " ""<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+ino {<CR> {<CR>}<ESC>O
+
+imap <C-s>     <Plug>(neosnippet_expand_or_jump)
+smap <C-s>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-s>     <Plug>(neosnippet_expand_target)
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
