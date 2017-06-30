@@ -1,8 +1,6 @@
 " This file should be at ~/.config/nvim/init.vim
 call plug#begin('~/.nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'}
-Plug 'Shougo/neosnippet.vim'
-Plug 'Shougo/neosnippet-snippets'
 Plug 'carlitux/deoplete-ternjs'
 Plug 'gioele/vim-autoswap'
 Plug 'vim-scripts/YankRing.vim'
@@ -27,6 +25,7 @@ Plug 'othree/javascript-libraries-syntax.vim'
 Plug 'mxw/vim-jsx'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'leshill/vim-json'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
 Plug 'reedes/vim-pencil'
@@ -36,6 +35,7 @@ Plug 'junegunn/limelight.vim'
 Plug 'amix/vim-zenroom2'
 Plug 'onur/vim-motivate'
 Plug 'mhinz/vim-startify'
+Plug 'mustache/vim-mustache-handlebars'
 call plug#end()
 
 colorscheme molokai
@@ -181,11 +181,6 @@ ino [ []<left>
 ino { {}<left>
 ino {<CR> {<CR>}<ESC>O
 
-imap <C-s>     <Plug>(neosnippet_expand_or_jump)
-smap <C-s>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-s>     <Plug>(neosnippet_expand_target)
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
