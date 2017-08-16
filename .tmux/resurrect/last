@@ -1,1 +1,5 @@
-tmux_resurrect_2017-06-30T18:02:22.txt
+pane	tmux	2	:node	0	:-	0	:/Users/melliott/ostk/product-page-amp	1	node	:node /usr/local/bin/yarn start
+pane	tmux	3	:nvim	1	:*	0	:/Users/melliott/ostk/product-page-amp	1	nvim	:nvim
+window	tmux	2	0	:-	cf05,143x39,0,0,8
+window	tmux	3	1	:*	67b7,143x39,0,0,18
+state	tmux	

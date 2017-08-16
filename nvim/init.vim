@@ -39,17 +39,22 @@ Plug 'mustache/vim-mustache-handlebars'
 call plug#end()
 
 colorscheme molokai
+"for proper scrolling/mouse behavior
+set mouse=a
+"don't find these filetypes
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.mov,*.pdf,*.psd,*.ai
+"don't find these filetypes either
 set wildignore+=*.ppt,*.pptx,*.doc,*.docx,*.xls,*.xlsx
+"be able to copy from neovim to clipboard on mac and ubuntu
 set clipboard=unnamedplus
 set number
 set smartcase
 set ignorecase
 set noshowmode
 set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 set smartindent
 set autoindent
 set listchars=tab:--,trail:·
@@ -73,30 +78,50 @@ hi folded ctermbg=232
 hi foldcolumn ctermfg=242
 hi folded ctermfg=242
 
+"space is leader key
 let mapleader = "\<Space>"
+"faster normal mode from insert mode
 inoremap jj <ESC>
-inoremap jk <ESC>
+"faster saving
 nnoremap <leader>w :w<CR>
+"jsx commenting
+nnoremap <leader>jc i{/*<space>*/}<esc>hhi
+"open NERDTree
 map <C-o> :NERDTreeToggle %:p:h<CR>
-nnoremap <C-u> :GundoToggle<CR>
+"open Gundo
+nnoremap <leader>u :GundoToggle<CR>
+"tab with visual mode
 vmap <Tab> >gv
+"back tab with visual mode
 vmap <S-Tab> <gv
+"edit this file in a new window
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
+"fuzzy find file in project with FZF
 nnoremap F :FZF<CR>
+"search project for word under cursor with Ag
 nnoremap <silent> <leader>f :Ag <C-R><C-W><CR>
+"start Ag search
 nnoremap <leader>ag :Ag<space>
+"git status
 nnoremap <leader>gs :Gstatus<CR>
+"git commit
 nnoremap <leader>gcm :Gcommit -m<space>
+"shift-y copies line
 noremap Y y$
+"moves line down in normal mode
 nnoremap <C-j> :m .+1<CR>==
+"moves line up in normal mode
 nnoremap <C-k> :m .-2<CR>==
+"moves cursor down line in insert mode "
 inoremap <C-j> <Esc>:m .+1<CR>==gi
+"moves cursor up line in insert mode "
 inoremap <C-k> <Esc>:m .-2<CR>==gi
+"moves selected block down line visual mode
 vnoremap <C-j> :m '>+1<CR>gv=gv
+"moves selected block up line visual mode
 vnoremap <C-k> :m '<-2<CR>gv=gv
+"distraction-free mode
 nnoremap <silent> <leader>z :Goyo<CR>
-nnoremap <silent> > :exe "resize " . (winwidth(0) * 3/2)<CR>
-nnoremap <silent> < :exe "resize " . (winwidth(0) * 2/3)<CR>
 
 autocmd User Startified setlocal cursorline
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
@@ -149,6 +174,8 @@ let g:jsx_ext_required = 0
 au BufEnter *.js let b:neomake_javascript_eslint_exe = nrun#Which('eslint')
 let g:neomake_jsx_enabled_makers = ['eslint']
 let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_scss_enabled_makers = ['stylelint']
+let g:neomake_css_enabled_makers = ['stylelint']
 let g:neomake_open_list = 1
 let g:neomake_list_height = 3
 let g:yankring_history_dir = '~/.config/nvim/tmp/yank'
@@ -159,7 +186,7 @@ let g:user_emmet_settings = {
 \}
 let g:startify_change_to_dir = 0
 let g:startify_custom_header =
-        \ map(split(system('fortune -a -s | cowsay'), '\n'), '"   ". v:val') + ['']
+        \ map(split(system('fortune -s | cowsay | lolcat'), '\n'), '"   ". v:val') + ['']
 let g:gist_open_browser_after_post = 1
 let g:gist_detect_filetype = 1
 runtime macros/matchit.vim
